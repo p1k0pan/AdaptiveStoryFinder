@@ -5,7 +5,7 @@ from django.http import HttpResponse, JsonResponse
 from django.views.generic import ListView
 
 from wikihow_app.models import Person
-import wikihowapi_pk as wha
+#import wikihowapi_pk as wha
 
 from django.contrib.auth.decorators import login_required
 
