@@ -5,7 +5,7 @@ from django.http import HttpResponse, JsonResponse
 from django.views.generic import ListView
 
 from wikihow_app.models import Person
-import wikihowunofficialapi as wha
+import wikihowapi_pk as wha
 
 
 
