@@ -53,6 +53,7 @@ def searchWikihow(request):
     # article = how_tos[0] # assume this is the one we want to present to the user
     # article = wha.Article('https://www.wikihow.com/Train-a-Dog')
     article = wha.Article('https://www.wikihow.com/Cook-Pasta')
+    # article = wha.Article("https://www.wikihow.com/Cook-Chicken")
 
     # parse methods
     # methods_list = []
@@ -76,7 +77,6 @@ def searchWikihow(request):
     #     "warnings": article.warnings,               # List of warnings associated with the article
     #     "tips": article.tips                        # List of tips associated with the article
     # }
-    
     return JsonResponse(article.get())
 
 
