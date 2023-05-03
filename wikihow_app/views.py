@@ -1,4 +1,4 @@
-from curses.ascii import HT
+from curses.ascii import HT # not supported for windows: pip install windows-curses
 import json
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
@@ -7,9 +7,19 @@ from django.views.generic import ListView
 from wikihow_app.models import Person
 import wikihowunofficialapi as wha
 
+from django.contrib.auth.decorators import login_required
+
 
 
 # Create your views here.
+
+
+def login(request):
+    return render(request, 'login.html')
+
+@login_required
+def home(request):
+    return render(request, 'home.html')
 
 def firstTest(request):
     return HttpResponse("docker is now working")
