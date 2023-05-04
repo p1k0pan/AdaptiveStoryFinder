@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -38,8 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'wikihow_app.apps.WikihowAppConfig',
+    'webpack_loader',
 
+    'wikihow_app.apps.WikihowAppConfig',
     'social_django',
     #'wikihow_app',
 ]
@@ -61,7 +63,9 @@ ROOT_URLCONF = 'AdaptiveStoryFinder.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            str(BASE_DIR.joinpath('templates'))
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -143,5 +147,18 @@ LOGIN_REDIRECT_URL = 'home'
 LOGOUT_URL = 'logout'
 LOGOUT_REDIRECT_URL = 'login'
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '#####'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '#####'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '295389794344-rrl8e319778a3hhdfdt14u9t1i40036p.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+
+
+# added for vue integration (django webpack loader)
+WEBPACK_LOADER = {
+  'DEFAULT': {
+    'CACHE': not DEBUG,
+    'BUNDLE_DIR_NAME': 'dist/',
+    #'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
+    'STATS_FILE': str(BASE_DIR.joinpath('frontend', 'webpack-stats.json')),
+    'POLL_INTERVAL': 0.1,
+    'IGNORE': [r'.+\.hot-update.js', r'.+\.map'],
+  }
+}
