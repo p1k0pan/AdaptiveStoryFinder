@@ -1,0 +1,41 @@
+{
+  "status": "done",
+  "assets": {
+    "favicon.ico": {
+      "name": "favicon.ico",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\favicon.ico",
+      "publicPath": "http://localhost:8080/favicon.ico"
+    },
+    "index.html": {
+      "name": "index.html",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\index.html",
+      "publicPath": "http://localhost:8080/index.html"
+    },
+    "js/app.js": {
+      "name": "js/app.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\js\\app.js",
+      "publicPath": "http://localhost:8080/js/app.js"
+    },
+    "js/chunk-common.js": {
+      "name": "js/chunk-common.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\js\\chunk-common.js",
+      "publicPath": "http://localhost:8080/js/chunk-common.js"
+    },
+    "js/main.js": {
+      "name": "js/main.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\js\\main.js",
+      "publicPath": "http://localhost:8080/js/main.js"
+    }
+  },
+  "chunks": {
+    "app": [
+      "js/chunk-common.js",
+      "js/app.js"
+    ],
+    "main": [
+      "js/chunk-common.js",
+      "js/main.js"
+    ]
+  },
+  "publicPath": "http://localhost:8080/"
+}
