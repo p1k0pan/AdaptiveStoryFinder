@@ -4,6 +4,10 @@
 
   <div>
         <show-blogs></show-blogs>
+        <!---<home></home>-->
+  </div>
+  <div>
+        <show-results></show-results>
   </div>
 
 </template>
@@ -12,12 +16,16 @@
 // Imports
 //import HelloWorld from './components/HelloWorld.vue'
 import showBlogs from './components/showBlogs.vue';
+import showResults from './components/showResults.vue';
+//import home from './views/home-page.vue';
 
 export default {
   name: 'App',
   components: {
     //HelloWorld,
     'show-blogs': showBlogs,
+    'show-results': showResults,
+    //'home': home,
   },
   data() {
     return {
