@@ -123,4 +123,10 @@ export default {
 ul {
   list-style-type: none;
 }
+
+.card-img{
+   width: 100%!important;
+   height: 200px!important;
+   object-fit: cover;
+}
 </style>
