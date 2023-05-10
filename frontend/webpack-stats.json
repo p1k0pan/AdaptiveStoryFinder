@@ -1,16 +1,6 @@
 {
   "status": "done",
   "assets": {
-    "app.4f85ee785c55b2cc.hot-update.js": {
-      "name": "app.4f85ee785c55b2cc.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.4f85ee785c55b2cc.hot-update.js",
-      "publicPath": "http://localhost:8080/app.4f85ee785c55b2cc.hot-update.js"
-    },
-    "app.4f85ee785c55b2cc.hot-update.json": {
-      "name": "app.4f85ee785c55b2cc.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.4f85ee785c55b2cc.hot-update.json",
-      "publicPath": "http://localhost:8080/app.4f85ee785c55b2cc.hot-update.json"
-    },
     "favicon.ico": {
       "name": "favicon.ico",
       "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\favicon.ico",
@@ -40,28 +30,16 @@
       "name": "js/main.js",
       "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\js\\main.js",
       "publicPath": "http://localhost:8080/js/main.js"
-    },
-    "main.4f85ee785c55b2cc.hot-update.js": {
-      "name": "main.4f85ee785c55b2cc.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.4f85ee785c55b2cc.hot-update.js",
-      "publicPath": "http://localhost:8080/main.4f85ee785c55b2cc.hot-update.js"
-    },
-    "main.4f85ee785c55b2cc.hot-update.json": {
-      "name": "main.4f85ee785c55b2cc.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.4f85ee785c55b2cc.hot-update.json",
-      "publicPath": "http://localhost:8080/main.4f85ee785c55b2cc.hot-update.json"
     }
   },
   "chunks": {
     "app": [
       "js/chunk-common.js",
-      "js/app.js",
-      "app.4f85ee785c55b2cc.hot-update.js"
+      "js/app.js"
     ],
     "main": [
       "js/chunk-common.js",
-      "js/main.js",
-      "main.4f85ee785c55b2cc.hot-update.js"
+      "js/main.js"
     ]
   },
   "publicPath": "http://localhost:8080/"

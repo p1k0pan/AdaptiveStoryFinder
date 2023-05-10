@@ -9,20 +9,20 @@ import wikihowapi_pk as wha
 
 from django.contrib.auth.decorators import login_required
 
-from rest_framework import viewsets
-from rest_framework.authentication import BasicAuthentication
-from rest_framework.permissions import IsAuthenticated
+#from rest_framework import viewsets
+#from rest_framework.authentication import BasicAuthentication
+#from rest_framework.permissions import IsAuthenticated
 
 
-from .models import Article
-from .serializers import ArticleSerializer
+#from .models import Article
+#from .serializers import ArticleSerializer
 
 
-class ArticleViewSet(viewsets.ModelViewSet):
-    authentication_classes = (BasicAuthentication,)
-    permission_classes = (IsAuthenticated,)
-    queryset = Article.objects.all()
-    serializer_class = ArticleSerializer
+#class ArticleViewSet(viewsets.ModelViewSet):
+#    authentication_classes = (BasicAuthentication,)
+#    permission_classes = (IsAuthenticated,)
+#    queryset = Article.objects.all()
+#    serializer_class = ArticleSerializer
 
 
 
