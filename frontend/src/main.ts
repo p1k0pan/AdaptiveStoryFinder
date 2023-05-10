@@ -9,9 +9,8 @@
 
 //Import Bootstrap an BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
-import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.js'
-//import 'bootstrap-vue/dist/bootstrap-vue.css'
-//import {BootstrapVue, IconsPlugin} from 'bootstrap-vue'
+//import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.js'
+import "bootstrap";
 
 //import '@/assets/css/tailwind.css'
 import axios from 'axios'
@@ -29,38 +28,47 @@ import VueAxios from 'vue-axios'
 
 import { createApp } from 'vue'
 import App from './App.vue'
-// uncomment 
-//import router from './router'
+
+import { createPinia } from 'pinia'
+
+import router from './router'
 //import store from './store'
-
-
-/*new Vue({
-        //router,
-        //axios,
-        //store,
-        //vuetify,
-        render: h => h(App)
-}).$mount('#app');*/
+//import './assets/main.css'
 
 //eslint-disable-next-line
 const app = createApp(App)
-app.use(bootstrap)
+app.use(createPinia()) // Create the root store
+app.use(router)
+
+//app.use(bootstrap)
 app.use(VueAxios, axios) // 👈
 app.mount('#app')
-//const app = createApp(App).use(store).use(router).mount('#app')
+
+
 console.log(app)
 
-app.config.warnHandler = function (msg, vm, trace) {
+
+
+/*app.config.warnHandler = function (msg, vm, trace) {
   msg, vm, trace = null
   return trace
-}
+}*/
 //Vue.config.productionTip = false
 
-app.config.globalProperties.$filters = {
+/*app.config.globalProperties.$filters = {
     uppercase(value) {
       return value.toUpperCase()
     }
-  }
+  }*/
 //Vue.filter('uppercase', function (value){
 //        return value.toUpperCase()
 //});
+
+// eslintrc.js
+/*module.exports = {
+  globals: {
+    ref: true,
+    reactive: true,
+    computed: true,
+  }
+}*/

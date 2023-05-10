@@ -1,5 +1,12 @@
 <script setup>
-//import posts from '../assets/metadata.json'
+import { useHomeStore } from "../store/modules/home";
+//import { RouterLink } from 'vue-router'
+import { storeToRefs } from 'pinia'
+
+const { results, loading, error } = storeToRefs(useHomeStore())
+const { fetchSearchResults } = useHomeStore()
+
+fetchSearchResults()
 </script>
 
 <template>
@@ -22,13 +29,24 @@
     </div> -->
     
     
+    
     <div class="container">
 
-      <div class="row">
-        <div class="col-10">
+      <p v-if="loading">Loading posts...</p>
+      <p v-if="error">{{ error.message }}</p>
+      
+      <div class="row" v-if="results">
+
+        <div class="col-md-auto">
           
           <div class="container">
+          </div>
 
+        </div>
+
+        <div class="col-8">
+          
+          <div class="container">
             <ul class="list-group">
               <li class="py-12" v-for="(item) in results" :key="item-list">
 
@@ -47,14 +65,13 @@
                     </div>
                   </div>
                 </div>
-
               </li>
             </ul>
-
           </div>
 
+
         </div>
-        <div class="col-1">
+        <div class="col col-lg-2">
 
           Recommendations
 
@@ -84,6 +101,8 @@
 
 <script>
 // Imports
+//import axios from "axios";
+//import wikihowapi_pk as wha
 
 export default {
   name: 'showResults',
@@ -93,24 +112,7 @@ export default {
     }
   },
 
-  mounted() {
-    this.getData()
-  },
-
   methods: {
-    async getData() {
-    // do async/promise stuff
-    
-    
-    var someValue = [
-                 {thumbnail:'http://www.snut.fr/wp-content/uploads/2015/08/image-de-paysage.jpg', title:'An item', views: '17.093', date:'09.05.2023',},
-                 {thumbnail:'http://www.snut.fr/wp-content/uploads/2015/08/image-de-paysage.jpg', title:'A second item', views: '17.093', date:'09.05.2023',},
-                 {thumbnail:'http://www.snut.fr/wp-content/uploads/2015/08/image-de-paysage.jpg', title:'A third item', views: '17.093', date:'09.05.2023',},
-                 {thumbnail:'http://www.snut.fr/wp-content/uploads/2015/08/image-de-paysage.jpg', title:'A fourth item', views: '17.093', date:'09.05.2023',},
-                 {thumbnail:'http://www.snut.fr/wp-content/uploads/2015/08/image-de-paysage.jpg', title:'And a fifth one', views: '17.093', date:'09.05.2023',},
-                ]
-    this.results = someValue
-    },
   },
 }
 </script>
@@ -128,5 +130,26 @@ ul {
    width: 100%!important;
    height: 200px!important;
    object-fit: cover;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+button.increase {
+  background-color: green;
+}
+
+button.decrease {
+  background-color: red;
 }
 </style>

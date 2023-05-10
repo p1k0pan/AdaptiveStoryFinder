@@ -23,6 +23,7 @@ from django.contrib.auth import views as auth_views
 from wikihow_app import views
 
 urlpatterns = [
+    path('api-auth/', include('rest_framework.urls')),
     path('admin/', admin.site.urls),
     path("test/", include("wikihow_app.urls")),
 

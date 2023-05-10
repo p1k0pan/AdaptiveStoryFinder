@@ -26,10 +26,6 @@ export default {
             console.log(this.blogs)
             this.blogs = data.body.slice(0,10);
         });*/
-        this.$http.get('http://jsonplaceholder.typicode.com/posts').then(function(data){
-            console.log(this.blogs)
-            this.blogs = data.body.slice(0,10);
-        });
     },
     computed: {
         filteredBlogs: function(){

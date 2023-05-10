@@ -1,4 +1,4 @@
-import Vue from 'vue'
+/*import Vue from 'vue'
 import Vuex from 'vuex'
 import createPersistedState from "vuex-persistedstate";
 
@@ -23,4 +23,4 @@ export default new Vuex.Store({
             //clear the state that is persisted in the local storage when the user is logged out
         },
     })],
-});
+});*/

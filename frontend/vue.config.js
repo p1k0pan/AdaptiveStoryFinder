@@ -1,14 +1,19 @@
+/*const { defineConfig } = require("@vue/cli-service");
+module.exports = defineConfig({
+  transpileDependencies: true,
+});*/
+
 const BundleTracker = require("webpack-bundle-tracker");
-const { defineConfig } = require('@vue/cli-service')
+//const { defineConfig } = require('@vue/cli-service')
 //const webpack = require('webpack');
 
-const entry = './src/main.js'
-const pages = {
+//const entry = './src/main.js'
+/*const pages = {
   main: {
     //entry: entry,
     chunks: ['chunk-common'] // or ['chunk-vendors']
   },
-};
+};*/
 const publicPath = process.env.NODE_ENV === 'development'
   ? 'http://localhost:8080/'
   : 'http://localhost:8080/' // `${process.env.GLOBAL_PREFIX ?? ''}/static/vue/`;
@@ -59,7 +64,7 @@ module.exports = {
     // add your custom entry point
     config
       .entry('main')
-      .add('./src/main.js')
+      .add('./src/main.ts') // ./src/main.js
 
     config.optimization
       .splitChunks({

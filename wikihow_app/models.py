@@ -16,3 +16,28 @@ class Person(models.Model):
 
     class Meta:
         permissions = ()
+
+
+
+class Article(models.Model):
+    titel = models.CharField(max_length=255)
+    thumbnail = models.CharField(max_length=255)
+    views = models.CharField(max_length=255)
+    release_date = models.CharField(max_length=32)
+    author = models.CharField(max_length=32)
+    description = models.CharField(max_length=255)
+    text = models.CharField(max_length=255)
+
+    num_sections = models.IntegerField()
+    num_images = models.IntegerField()
+
+
+
+    #one_category = 'one_category'
+    #two_categories = 'two_categories'
+
+    #TYPE_CHOICES = (
+    #    (one_category, 'two_categories'),
+    #    (two_categories, 'one_category')
+    #)
+    #type = models.CharField(max_length=20, choices=TYPE_CHOICES, default=one_category)

@@ -1,20 +1,11 @@
 <script setup>
 import { computed } from 'vue'
-import posts from '../metadata.json'
 import { useRoute } from 'vitepress'
 import Home from './Pages/Home.vue'
 import Article from './components/Article.vue'
 const route = useRoute()
 const isIndex = computed(() => route.path.replace(/index.html$/, '') === '/')
 
-export default {
-  name: 'DashboardLayout',
-
-  data() {},
-
-  methods: {
-    logout() {}
-}
 </script>
 
 <template>
@@ -55,6 +46,14 @@ export default {
 <style>
 </style>
 
+<script>
+export default {
+  name: 'DashboardLayout',
 
+  data() {},
 
-name: 'DashboardLayout',
+  methods: {
+    logout() {}
+  }
+}
+</script>
