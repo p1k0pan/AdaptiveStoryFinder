@@ -26,6 +26,7 @@ export const useHomeStore = defineStore({
       this.post = null
       this.loading = true
       this.results = []
+
       query = "how_to_cook_noodles"
       try {
         this.results = await fetch(
@@ -34,7 +35,7 @@ export const useHomeStore = defineStore({
           mode: "no-cors", // no-cors, *cors, same-origin
           }
         ) 
-        console.log("HEHHHEHEH")
+        console.log("H12321413H")
         console.log(this.results)
         
         //fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
@@ -45,6 +46,8 @@ export const useHomeStore = defineStore({
       } finally {
         this.loading = false
       }
+      console.log("HEHHHEHEH")
+      console.log(this.results)
 
       /*
       const response = await fetch(url, {
