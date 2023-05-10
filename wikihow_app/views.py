@@ -45,38 +45,27 @@ def method_get(self):
     }
 
 def searchWikihow(request):
+    # example test/search?query=how_to_cook_chicken
+    query:str = request.GET.get('query')
     wha.Methods.get= method_get
-    max_results = 1 
+    # max_results = 10 
     """ provide more choices, choose the one that corresponse to the user's preferences
     may be select the highest rate or with professioncy """
-    # how_tos = wha.search_wikihow("how to cook spaghetti", max_results)
+    # how_tos: list = wha.search_wikihow_link("housing bubble")
+    query = query.replace("_", " ")
+    how_tos: list = wha.search_wikihow_link(query)
+
+    print(query)
     # article = how_tos[0] # assume this is the one we want to present to the user
     # article = wha.Article('https://www.wikihow.com/Train-a-Dog')
-    article = wha.Article('https://www.wikihow.com/Cook-Pasta')
+    # article = wha.Article('https://www.wikihow.com/Cook-Pasta')
     # article = wha.Article("https://www.wikihow.com/Cook-Chicken")
 
-    # parse methods
-    # methods_list = []
-    # for method in article.methods:
-    #     methods_list.append(method.get())
-        
-    # article_json = {
-    #     "url": article.url,                         # URL of the article
-    #     "title": article.title,                     # Title of the article
-    #     "intro": article.intro,                     # Introduction of the article
-    #     "n_methods": article.n_methods,             # Number of methods in the article
-    #     "methods": methods_list,                 # List of methods in the article
-    #     "num_votes": article.num_votes,             # Number of votes given to the article
-    #     "percent_helpful": article.percent_helpful, # Percentage of helpful votes given to the article
-    #     "is_expert": article.is_expert,             # True if the article is written by an expert, False otherwise
-    #     "last_updated": str(article.last_updated),  # Date when the article was last updated
-    #     "views": article.views,                     # Number of views received by the article
-    #     "co_authors": article.co_authors,           # Number of co-authors of the article
-    #     "references": article.references,           # Number of references in the article
-    #     "summary": article.summary,                 # Summary of the article
-    #     "warnings": article.warnings,               # List of warnings associated with the article
-    #     "tips": article.tips                        # List of tips associated with the article
-    # }
-    return JsonResponse(article.get())
+    # return JsonResponse(article.get())
+    # print(how_tos)
+    return JsonResponse({"results": how_tos})
 
 
+# use wha to search with different questions and return json response
+
+    
