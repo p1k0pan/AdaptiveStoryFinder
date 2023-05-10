@@ -18,14 +18,14 @@
 <script lang="ts">
 // Imports
 import { defineComponent } from "vue";
-import Navigation from "@/components/NavigationBar.vue";
+//import Navigation from "@/components/NavigationBar.vue";
 import RankingResults from '@/components/showResults.vue';
 //import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 
 export default defineComponent({
   name: "HomeView",
   components: {
-    Navigation,
+    //Navigation,
     RankingResults,
   },
   data: () => {

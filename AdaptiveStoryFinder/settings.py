@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-)*i-3_@-(^vzf8=e8_6*hay1s_y&efm6jqrjp06#59w4uhti2z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost',]
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'webpack_loader',
     'rest_framework',
+    #'corsheaders',
 
     'wikihow_app.apps.WikihowAppConfig',
     'social_django',
@@ -50,7 +51,8 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
+    #'corsheaders.middleware.CorsMiddleware',
+    #'corsheaders.middleware.CorsMiddleware',
 
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -165,3 +167,11 @@ WEBPACK_LOADER = {
     'IGNORE': [r'.+\.hot-update.js', r'.+\.map'],
   }
 }
+
+
+#CORS_ALLOWED_ORIGINS = [
+#    'http://localhost:8080',
+#    'http://localhost:8000',
+#    'http://localhost:3030',
+#    'http://127.0.0.1:8000',
+#]

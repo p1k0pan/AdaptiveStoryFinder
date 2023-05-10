@@ -1,9 +1,9 @@
 <script setup>
 import { useHomeStore } from "../store/modules/home";
 //import { RouterLink } from 'vue-router'
-import { storeToRefs } from 'pinia'
+//import { storeToRefs } from 'pinia'
 
-const { results, loading, error } = storeToRefs(useHomeStore())
+//const { results, loading, error } = storeToRefs(useHomeStore())
 const { fetchSearchResults } = useHomeStore()
 </script>
 
@@ -12,7 +12,7 @@ const { fetchSearchResults } = useHomeStore()
         
       <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
             <div class="search">
-                <input type="text" placeholder="Search ..." v-model.trim="search" @keyup="fetchSearchResults"/>
+                <input type="text" placeholder="Search ..." v-model.trim="searchValue" @keyup="fetchSearchResults"/>
                 <i class="fas fa-search"></i>
             </div>
       </div>
@@ -32,7 +32,7 @@ export default defineComponent({
     data: () => {
       return {
         results: [],
-        search: ""
+        searchValue: ""
       };
     },
 

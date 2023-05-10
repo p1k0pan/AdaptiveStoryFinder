@@ -131,6 +131,13 @@ module.exports = {
       .historyApiFallback(true)
       .headers({"Access-Control-Allow-Origin": ["*"]})
   },
+
+  configureWebpack: {
+    devServer: {
+      headers: { "Access-Control-Allow-Origin": "*" }
+    }
+  },
+
   /*configureWebpack: {
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx'],
