@@ -6,3 +6,7 @@ axios
 djangorestframework
 markdown
 django-filter
+numpy
+pandas
+transformers
+sentence-transformers
