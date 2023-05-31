@@ -48,7 +48,7 @@ def read_dataset(path)-> pd.DataFrame:
     return df
 
 def embed_text(text):
-    return model.encode(text, convert_to_tensor=True)
+    return model.encode(text, convert_to_tensor=True,show_progress_bar=True)
 
 def getTopResult(embedd1, embedd2, topk, df) -> pd.DataFrame:
     cos_scores = util.pytorch_cos_sim(embedd1, embedd2)[0]
