@@ -8,8 +8,6 @@ import time
 import datetime
 import os
 
-# working dirctory is AdaptiveStoryFinder, should change to experiments
-os.chdir('experiments')
 
 if torch.cuda.is_available():
     device = 'cuda'
