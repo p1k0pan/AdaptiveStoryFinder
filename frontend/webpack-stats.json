@@ -1,55 +1,535 @@
 {
   "status": "done",
   "assets": {
-    "app.30bf779f61aeeec8.hot-update.js": {
-      "name": "app.30bf779f61aeeec8.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.30bf779f61aeeec8.hot-update.js",
-      "publicPath": "http://localhost:8080/app.30bf779f61aeeec8.hot-update.js"
+    "app.0b020e7335c27fc1.hot-update.js": {
+      "name": "app.0b020e7335c27fc1.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.0b020e7335c27fc1.hot-update.js",
+      "publicPath": "http://localhost:8080/app.0b020e7335c27fc1.hot-update.js"
     },
-    "app.30bf779f61aeeec8.hot-update.json": {
-      "name": "app.30bf779f61aeeec8.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.30bf779f61aeeec8.hot-update.json",
-      "publicPath": "http://localhost:8080/app.30bf779f61aeeec8.hot-update.json"
+    "app.0b020e7335c27fc1.hot-update.json": {
+      "name": "app.0b020e7335c27fc1.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.0b020e7335c27fc1.hot-update.json",
+      "publicPath": "http://localhost:8080/app.0b020e7335c27fc1.hot-update.json"
     },
-    "app.39e20249a87ad9f6.hot-update.js": {
-      "name": "app.39e20249a87ad9f6.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.39e20249a87ad9f6.hot-update.js",
-      "publicPath": "http://localhost:8080/app.39e20249a87ad9f6.hot-update.js"
+    "app.12592ec46f968508.hot-update.js": {
+      "name": "app.12592ec46f968508.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.12592ec46f968508.hot-update.js",
+      "publicPath": "http://localhost:8080/app.12592ec46f968508.hot-update.js"
     },
-    "app.39e20249a87ad9f6.hot-update.json": {
-      "name": "app.39e20249a87ad9f6.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.39e20249a87ad9f6.hot-update.json",
-      "publicPath": "http://localhost:8080/app.39e20249a87ad9f6.hot-update.json"
+    "app.12592ec46f968508.hot-update.json": {
+      "name": "app.12592ec46f968508.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.12592ec46f968508.hot-update.json",
+      "publicPath": "http://localhost:8080/app.12592ec46f968508.hot-update.json"
     },
-    "app.92deae664789a74f.hot-update.js": {
-      "name": "app.92deae664789a74f.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.92deae664789a74f.hot-update.js",
-      "publicPath": "http://localhost:8080/app.92deae664789a74f.hot-update.js"
+    "app.13ca96727a14d89d.hot-update.js": {
+      "name": "app.13ca96727a14d89d.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.13ca96727a14d89d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.13ca96727a14d89d.hot-update.js"
     },
-    "app.92deae664789a74f.hot-update.json": {
-      "name": "app.92deae664789a74f.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.92deae664789a74f.hot-update.json",
-      "publicPath": "http://localhost:8080/app.92deae664789a74f.hot-update.json"
+    "app.13ca96727a14d89d.hot-update.json": {
+      "name": "app.13ca96727a14d89d.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.13ca96727a14d89d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.13ca96727a14d89d.hot-update.json"
     },
-    "app.c141a25bfa4b957c.hot-update.js": {
-      "name": "app.c141a25bfa4b957c.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.c141a25bfa4b957c.hot-update.js",
-      "publicPath": "http://localhost:8080/app.c141a25bfa4b957c.hot-update.js"
+    "app.13daefc29dcc3011.hot-update.js": {
+      "name": "app.13daefc29dcc3011.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.13daefc29dcc3011.hot-update.js",
+      "publicPath": "http://localhost:8080/app.13daefc29dcc3011.hot-update.js"
     },
-    "app.c141a25bfa4b957c.hot-update.json": {
-      "name": "app.c141a25bfa4b957c.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.c141a25bfa4b957c.hot-update.json",
-      "publicPath": "http://localhost:8080/app.c141a25bfa4b957c.hot-update.json"
+    "app.13daefc29dcc3011.hot-update.json": {
+      "name": "app.13daefc29dcc3011.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.13daefc29dcc3011.hot-update.json",
+      "publicPath": "http://localhost:8080/app.13daefc29dcc3011.hot-update.json"
     },
-    "app.c6857156c61160d2.hot-update.js": {
-      "name": "app.c6857156c61160d2.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.c6857156c61160d2.hot-update.js",
-      "publicPath": "http://localhost:8080/app.c6857156c61160d2.hot-update.js"
+    "app.1c65a55e1715ba29.hot-update.js": {
+      "name": "app.1c65a55e1715ba29.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.1c65a55e1715ba29.hot-update.js",
+      "publicPath": "http://localhost:8080/app.1c65a55e1715ba29.hot-update.js"
     },
-    "app.c6857156c61160d2.hot-update.json": {
-      "name": "app.c6857156c61160d2.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.c6857156c61160d2.hot-update.json",
-      "publicPath": "http://localhost:8080/app.c6857156c61160d2.hot-update.json"
+    "app.1c65a55e1715ba29.hot-update.json": {
+      "name": "app.1c65a55e1715ba29.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.1c65a55e1715ba29.hot-update.json",
+      "publicPath": "http://localhost:8080/app.1c65a55e1715ba29.hot-update.json"
+    },
+    "app.1f782a9ee8e25f5c.hot-update.js": {
+      "name": "app.1f782a9ee8e25f5c.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.1f782a9ee8e25f5c.hot-update.js",
+      "publicPath": "http://localhost:8080/app.1f782a9ee8e25f5c.hot-update.js"
+    },
+    "app.1f782a9ee8e25f5c.hot-update.json": {
+      "name": "app.1f782a9ee8e25f5c.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.1f782a9ee8e25f5c.hot-update.json",
+      "publicPath": "http://localhost:8080/app.1f782a9ee8e25f5c.hot-update.json"
+    },
+    "app.1f9f3fa1f89d0595.hot-update.js": {
+      "name": "app.1f9f3fa1f89d0595.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.1f9f3fa1f89d0595.hot-update.js",
+      "publicPath": "http://localhost:8080/app.1f9f3fa1f89d0595.hot-update.js"
+    },
+    "app.1f9f3fa1f89d0595.hot-update.json": {
+      "name": "app.1f9f3fa1f89d0595.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.1f9f3fa1f89d0595.hot-update.json",
+      "publicPath": "http://localhost:8080/app.1f9f3fa1f89d0595.hot-update.json"
+    },
+    "app.2eeff649e0b94ef0.hot-update.js": {
+      "name": "app.2eeff649e0b94ef0.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.2eeff649e0b94ef0.hot-update.js",
+      "publicPath": "http://localhost:8080/app.2eeff649e0b94ef0.hot-update.js"
+    },
+    "app.2eeff649e0b94ef0.hot-update.json": {
+      "name": "app.2eeff649e0b94ef0.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.2eeff649e0b94ef0.hot-update.json",
+      "publicPath": "http://localhost:8080/app.2eeff649e0b94ef0.hot-update.json"
+    },
+    "app.33818e5c92a1730a.hot-update.js": {
+      "name": "app.33818e5c92a1730a.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.33818e5c92a1730a.hot-update.js",
+      "publicPath": "http://localhost:8080/app.33818e5c92a1730a.hot-update.js"
+    },
+    "app.33818e5c92a1730a.hot-update.json": {
+      "name": "app.33818e5c92a1730a.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.33818e5c92a1730a.hot-update.json",
+      "publicPath": "http://localhost:8080/app.33818e5c92a1730a.hot-update.json"
+    },
+    "app.33b126e936e59344.hot-update.js": {
+      "name": "app.33b126e936e59344.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.33b126e936e59344.hot-update.js",
+      "publicPath": "http://localhost:8080/app.33b126e936e59344.hot-update.js"
+    },
+    "app.33b126e936e59344.hot-update.json": {
+      "name": "app.33b126e936e59344.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.33b126e936e59344.hot-update.json",
+      "publicPath": "http://localhost:8080/app.33b126e936e59344.hot-update.json"
+    },
+    "app.3735b17dfece4e28.hot-update.js": {
+      "name": "app.3735b17dfece4e28.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.3735b17dfece4e28.hot-update.js",
+      "publicPath": "http://localhost:8080/app.3735b17dfece4e28.hot-update.js"
+    },
+    "app.3735b17dfece4e28.hot-update.json": {
+      "name": "app.3735b17dfece4e28.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.3735b17dfece4e28.hot-update.json",
+      "publicPath": "http://localhost:8080/app.3735b17dfece4e28.hot-update.json"
+    },
+    "app.37bad7102c54ff99.hot-update.js": {
+      "name": "app.37bad7102c54ff99.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.37bad7102c54ff99.hot-update.js",
+      "publicPath": "http://localhost:8080/app.37bad7102c54ff99.hot-update.js"
+    },
+    "app.37bad7102c54ff99.hot-update.json": {
+      "name": "app.37bad7102c54ff99.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.37bad7102c54ff99.hot-update.json",
+      "publicPath": "http://localhost:8080/app.37bad7102c54ff99.hot-update.json"
+    },
+    "app.39b506144055f599.hot-update.js": {
+      "name": "app.39b506144055f599.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.39b506144055f599.hot-update.js",
+      "publicPath": "http://localhost:8080/app.39b506144055f599.hot-update.js"
+    },
+    "app.39b506144055f599.hot-update.json": {
+      "name": "app.39b506144055f599.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.39b506144055f599.hot-update.json",
+      "publicPath": "http://localhost:8080/app.39b506144055f599.hot-update.json"
+    },
+    "app.3a735d1f70e958ff.hot-update.js": {
+      "name": "app.3a735d1f70e958ff.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.3a735d1f70e958ff.hot-update.js",
+      "publicPath": "http://localhost:8080/app.3a735d1f70e958ff.hot-update.js"
+    },
+    "app.3a735d1f70e958ff.hot-update.json": {
+      "name": "app.3a735d1f70e958ff.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.3a735d1f70e958ff.hot-update.json",
+      "publicPath": "http://localhost:8080/app.3a735d1f70e958ff.hot-update.json"
+    },
+    "app.3d6ad878a55e911c.hot-update.js": {
+      "name": "app.3d6ad878a55e911c.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.3d6ad878a55e911c.hot-update.js",
+      "publicPath": "http://localhost:8080/app.3d6ad878a55e911c.hot-update.js"
+    },
+    "app.3d6ad878a55e911c.hot-update.json": {
+      "name": "app.3d6ad878a55e911c.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.3d6ad878a55e911c.hot-update.json",
+      "publicPath": "http://localhost:8080/app.3d6ad878a55e911c.hot-update.json"
+    },
+    "app.3e00eaaccddf8568.hot-update.js": {
+      "name": "app.3e00eaaccddf8568.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.3e00eaaccddf8568.hot-update.js",
+      "publicPath": "http://localhost:8080/app.3e00eaaccddf8568.hot-update.js"
+    },
+    "app.3e00eaaccddf8568.hot-update.json": {
+      "name": "app.3e00eaaccddf8568.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.3e00eaaccddf8568.hot-update.json",
+      "publicPath": "http://localhost:8080/app.3e00eaaccddf8568.hot-update.json"
+    },
+    "app.428b99ddbb7a755f.hot-update.js": {
+      "name": "app.428b99ddbb7a755f.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.428b99ddbb7a755f.hot-update.js",
+      "publicPath": "http://localhost:8080/app.428b99ddbb7a755f.hot-update.js"
+    },
+    "app.428b99ddbb7a755f.hot-update.json": {
+      "name": "app.428b99ddbb7a755f.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.428b99ddbb7a755f.hot-update.json",
+      "publicPath": "http://localhost:8080/app.428b99ddbb7a755f.hot-update.json"
+    },
+    "app.4800b9d77cb07a64.hot-update.js": {
+      "name": "app.4800b9d77cb07a64.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.4800b9d77cb07a64.hot-update.js",
+      "publicPath": "http://localhost:8080/app.4800b9d77cb07a64.hot-update.js"
+    },
+    "app.4800b9d77cb07a64.hot-update.json": {
+      "name": "app.4800b9d77cb07a64.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.4800b9d77cb07a64.hot-update.json",
+      "publicPath": "http://localhost:8080/app.4800b9d77cb07a64.hot-update.json"
+    },
+    "app.51bb8229a1b9e00b.hot-update.js": {
+      "name": "app.51bb8229a1b9e00b.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.51bb8229a1b9e00b.hot-update.js",
+      "publicPath": "http://localhost:8080/app.51bb8229a1b9e00b.hot-update.js"
+    },
+    "app.51bb8229a1b9e00b.hot-update.json": {
+      "name": "app.51bb8229a1b9e00b.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.51bb8229a1b9e00b.hot-update.json",
+      "publicPath": "http://localhost:8080/app.51bb8229a1b9e00b.hot-update.json"
+    },
+    "app.53538cb31fb087ef.hot-update.js": {
+      "name": "app.53538cb31fb087ef.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.53538cb31fb087ef.hot-update.js",
+      "publicPath": "http://localhost:8080/app.53538cb31fb087ef.hot-update.js"
+    },
+    "app.53538cb31fb087ef.hot-update.json": {
+      "name": "app.53538cb31fb087ef.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.53538cb31fb087ef.hot-update.json",
+      "publicPath": "http://localhost:8080/app.53538cb31fb087ef.hot-update.json"
+    },
+    "app.57d01f6dad6e1b58.hot-update.js": {
+      "name": "app.57d01f6dad6e1b58.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.57d01f6dad6e1b58.hot-update.js",
+      "publicPath": "http://localhost:8080/app.57d01f6dad6e1b58.hot-update.js"
+    },
+    "app.57d01f6dad6e1b58.hot-update.json": {
+      "name": "app.57d01f6dad6e1b58.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.57d01f6dad6e1b58.hot-update.json",
+      "publicPath": "http://localhost:8080/app.57d01f6dad6e1b58.hot-update.json"
+    },
+    "app.58e2588349e0ad9d.hot-update.js": {
+      "name": "app.58e2588349e0ad9d.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.58e2588349e0ad9d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.58e2588349e0ad9d.hot-update.js"
+    },
+    "app.58e2588349e0ad9d.hot-update.json": {
+      "name": "app.58e2588349e0ad9d.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.58e2588349e0ad9d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.58e2588349e0ad9d.hot-update.json"
+    },
+    "app.5a57f328f7a1afca.hot-update.js": {
+      "name": "app.5a57f328f7a1afca.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.5a57f328f7a1afca.hot-update.js",
+      "publicPath": "http://localhost:8080/app.5a57f328f7a1afca.hot-update.js"
+    },
+    "app.5a57f328f7a1afca.hot-update.json": {
+      "name": "app.5a57f328f7a1afca.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.5a57f328f7a1afca.hot-update.json",
+      "publicPath": "http://localhost:8080/app.5a57f328f7a1afca.hot-update.json"
+    },
+    "app.5b7c8fe08df6c399.hot-update.js": {
+      "name": "app.5b7c8fe08df6c399.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.5b7c8fe08df6c399.hot-update.js",
+      "publicPath": "http://localhost:8080/app.5b7c8fe08df6c399.hot-update.js"
+    },
+    "app.5b7c8fe08df6c399.hot-update.json": {
+      "name": "app.5b7c8fe08df6c399.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.5b7c8fe08df6c399.hot-update.json",
+      "publicPath": "http://localhost:8080/app.5b7c8fe08df6c399.hot-update.json"
+    },
+    "app.6cfa9645c3859bb1.hot-update.js": {
+      "name": "app.6cfa9645c3859bb1.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.6cfa9645c3859bb1.hot-update.js",
+      "publicPath": "http://localhost:8080/app.6cfa9645c3859bb1.hot-update.js"
+    },
+    "app.6cfa9645c3859bb1.hot-update.json": {
+      "name": "app.6cfa9645c3859bb1.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.6cfa9645c3859bb1.hot-update.json",
+      "publicPath": "http://localhost:8080/app.6cfa9645c3859bb1.hot-update.json"
+    },
+    "app.6d06460cb1398381.hot-update.js": {
+      "name": "app.6d06460cb1398381.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.6d06460cb1398381.hot-update.js",
+      "publicPath": "http://localhost:8080/app.6d06460cb1398381.hot-update.js"
+    },
+    "app.6d06460cb1398381.hot-update.json": {
+      "name": "app.6d06460cb1398381.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.6d06460cb1398381.hot-update.json",
+      "publicPath": "http://localhost:8080/app.6d06460cb1398381.hot-update.json"
+    },
+    "app.70943fb4ea56f182.hot-update.js": {
+      "name": "app.70943fb4ea56f182.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.70943fb4ea56f182.hot-update.js",
+      "publicPath": "http://localhost:8080/app.70943fb4ea56f182.hot-update.js"
+    },
+    "app.70943fb4ea56f182.hot-update.json": {
+      "name": "app.70943fb4ea56f182.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.70943fb4ea56f182.hot-update.json",
+      "publicPath": "http://localhost:8080/app.70943fb4ea56f182.hot-update.json"
+    },
+    "app.74645a80ef80fa5c.hot-update.js": {
+      "name": "app.74645a80ef80fa5c.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.74645a80ef80fa5c.hot-update.js",
+      "publicPath": "http://localhost:8080/app.74645a80ef80fa5c.hot-update.js"
+    },
+    "app.74645a80ef80fa5c.hot-update.json": {
+      "name": "app.74645a80ef80fa5c.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.74645a80ef80fa5c.hot-update.json",
+      "publicPath": "http://localhost:8080/app.74645a80ef80fa5c.hot-update.json"
+    },
+    "app.74c3edaf2a74d86c.hot-update.js": {
+      "name": "app.74c3edaf2a74d86c.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.74c3edaf2a74d86c.hot-update.js",
+      "publicPath": "http://localhost:8080/app.74c3edaf2a74d86c.hot-update.js"
+    },
+    "app.74c3edaf2a74d86c.hot-update.json": {
+      "name": "app.74c3edaf2a74d86c.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.74c3edaf2a74d86c.hot-update.json",
+      "publicPath": "http://localhost:8080/app.74c3edaf2a74d86c.hot-update.json"
+    },
+    "app.7f347ce2485a287b.hot-update.js": {
+      "name": "app.7f347ce2485a287b.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.7f347ce2485a287b.hot-update.js",
+      "publicPath": "http://localhost:8080/app.7f347ce2485a287b.hot-update.js"
+    },
+    "app.7f347ce2485a287b.hot-update.json": {
+      "name": "app.7f347ce2485a287b.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.7f347ce2485a287b.hot-update.json",
+      "publicPath": "http://localhost:8080/app.7f347ce2485a287b.hot-update.json"
+    },
+    "app.94cf44703e1fdc13.hot-update.js": {
+      "name": "app.94cf44703e1fdc13.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.94cf44703e1fdc13.hot-update.js",
+      "publicPath": "http://localhost:8080/app.94cf44703e1fdc13.hot-update.js"
+    },
+    "app.94cf44703e1fdc13.hot-update.json": {
+      "name": "app.94cf44703e1fdc13.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.94cf44703e1fdc13.hot-update.json",
+      "publicPath": "http://localhost:8080/app.94cf44703e1fdc13.hot-update.json"
+    },
+    "app.9761ed20321dd6f5.hot-update.js": {
+      "name": "app.9761ed20321dd6f5.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.9761ed20321dd6f5.hot-update.js",
+      "publicPath": "http://localhost:8080/app.9761ed20321dd6f5.hot-update.js"
+    },
+    "app.9761ed20321dd6f5.hot-update.json": {
+      "name": "app.9761ed20321dd6f5.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.9761ed20321dd6f5.hot-update.json",
+      "publicPath": "http://localhost:8080/app.9761ed20321dd6f5.hot-update.json"
+    },
+    "app.998831c07fff459e.hot-update.js": {
+      "name": "app.998831c07fff459e.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.998831c07fff459e.hot-update.js",
+      "publicPath": "http://localhost:8080/app.998831c07fff459e.hot-update.js"
+    },
+    "app.998831c07fff459e.hot-update.json": {
+      "name": "app.998831c07fff459e.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.998831c07fff459e.hot-update.json",
+      "publicPath": "http://localhost:8080/app.998831c07fff459e.hot-update.json"
+    },
+    "app.a3b6eaac2e1b3050.hot-update.js": {
+      "name": "app.a3b6eaac2e1b3050.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.a3b6eaac2e1b3050.hot-update.js",
+      "publicPath": "http://localhost:8080/app.a3b6eaac2e1b3050.hot-update.js"
+    },
+    "app.a3b6eaac2e1b3050.hot-update.json": {
+      "name": "app.a3b6eaac2e1b3050.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.a3b6eaac2e1b3050.hot-update.json",
+      "publicPath": "http://localhost:8080/app.a3b6eaac2e1b3050.hot-update.json"
+    },
+    "app.a410aba6cfe6ed2c.hot-update.js": {
+      "name": "app.a410aba6cfe6ed2c.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.a410aba6cfe6ed2c.hot-update.js",
+      "publicPath": "http://localhost:8080/app.a410aba6cfe6ed2c.hot-update.js"
+    },
+    "app.a410aba6cfe6ed2c.hot-update.json": {
+      "name": "app.a410aba6cfe6ed2c.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.a410aba6cfe6ed2c.hot-update.json",
+      "publicPath": "http://localhost:8080/app.a410aba6cfe6ed2c.hot-update.json"
+    },
+    "app.ab6bf6477dfd6323.hot-update.js": {
+      "name": "app.ab6bf6477dfd6323.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.ab6bf6477dfd6323.hot-update.js",
+      "publicPath": "http://localhost:8080/app.ab6bf6477dfd6323.hot-update.js"
+    },
+    "app.ab6bf6477dfd6323.hot-update.json": {
+      "name": "app.ab6bf6477dfd6323.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.ab6bf6477dfd6323.hot-update.json",
+      "publicPath": "http://localhost:8080/app.ab6bf6477dfd6323.hot-update.json"
+    },
+    "app.afff11b864d91037.hot-update.js": {
+      "name": "app.afff11b864d91037.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.afff11b864d91037.hot-update.js",
+      "publicPath": "http://localhost:8080/app.afff11b864d91037.hot-update.js"
+    },
+    "app.afff11b864d91037.hot-update.json": {
+      "name": "app.afff11b864d91037.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.afff11b864d91037.hot-update.json",
+      "publicPath": "http://localhost:8080/app.afff11b864d91037.hot-update.json"
+    },
+    "app.b39b3a59c66b3da9.hot-update.js": {
+      "name": "app.b39b3a59c66b3da9.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.b39b3a59c66b3da9.hot-update.js",
+      "publicPath": "http://localhost:8080/app.b39b3a59c66b3da9.hot-update.js"
+    },
+    "app.b39b3a59c66b3da9.hot-update.json": {
+      "name": "app.b39b3a59c66b3da9.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.b39b3a59c66b3da9.hot-update.json",
+      "publicPath": "http://localhost:8080/app.b39b3a59c66b3da9.hot-update.json"
+    },
+    "app.bbcd5e0a7e624ea3.hot-update.js": {
+      "name": "app.bbcd5e0a7e624ea3.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.bbcd5e0a7e624ea3.hot-update.js",
+      "publicPath": "http://localhost:8080/app.bbcd5e0a7e624ea3.hot-update.js"
+    },
+    "app.bbcd5e0a7e624ea3.hot-update.json": {
+      "name": "app.bbcd5e0a7e624ea3.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.bbcd5e0a7e624ea3.hot-update.json",
+      "publicPath": "http://localhost:8080/app.bbcd5e0a7e624ea3.hot-update.json"
+    },
+    "app.bf438d2de105bea9.hot-update.js": {
+      "name": "app.bf438d2de105bea9.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.bf438d2de105bea9.hot-update.js",
+      "publicPath": "http://localhost:8080/app.bf438d2de105bea9.hot-update.js"
+    },
+    "app.bf438d2de105bea9.hot-update.json": {
+      "name": "app.bf438d2de105bea9.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.bf438d2de105bea9.hot-update.json",
+      "publicPath": "http://localhost:8080/app.bf438d2de105bea9.hot-update.json"
+    },
+    "app.c37c3653545ca8f8.hot-update.js": {
+      "name": "app.c37c3653545ca8f8.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.c37c3653545ca8f8.hot-update.js",
+      "publicPath": "http://localhost:8080/app.c37c3653545ca8f8.hot-update.js"
+    },
+    "app.c37c3653545ca8f8.hot-update.json": {
+      "name": "app.c37c3653545ca8f8.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.c37c3653545ca8f8.hot-update.json",
+      "publicPath": "http://localhost:8080/app.c37c3653545ca8f8.hot-update.json"
+    },
+    "app.c844fa902a534211.hot-update.js": {
+      "name": "app.c844fa902a534211.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.c844fa902a534211.hot-update.js",
+      "publicPath": "http://localhost:8080/app.c844fa902a534211.hot-update.js"
+    },
+    "app.c844fa902a534211.hot-update.json": {
+      "name": "app.c844fa902a534211.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.c844fa902a534211.hot-update.json",
+      "publicPath": "http://localhost:8080/app.c844fa902a534211.hot-update.json"
+    },
+    "app.ca943e26d6eeecdf.hot-update.js": {
+      "name": "app.ca943e26d6eeecdf.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.ca943e26d6eeecdf.hot-update.js",
+      "publicPath": "http://localhost:8080/app.ca943e26d6eeecdf.hot-update.js"
+    },
+    "app.ca943e26d6eeecdf.hot-update.json": {
+      "name": "app.ca943e26d6eeecdf.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.ca943e26d6eeecdf.hot-update.json",
+      "publicPath": "http://localhost:8080/app.ca943e26d6eeecdf.hot-update.json"
+    },
+    "app.d88f794d6e90e813.hot-update.js": {
+      "name": "app.d88f794d6e90e813.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.d88f794d6e90e813.hot-update.js",
+      "publicPath": "http://localhost:8080/app.d88f794d6e90e813.hot-update.js"
+    },
+    "app.d88f794d6e90e813.hot-update.json": {
+      "name": "app.d88f794d6e90e813.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.d88f794d6e90e813.hot-update.json",
+      "publicPath": "http://localhost:8080/app.d88f794d6e90e813.hot-update.json"
+    },
+    "app.dc1a91039c227005.hot-update.js": {
+      "name": "app.dc1a91039c227005.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.dc1a91039c227005.hot-update.js",
+      "publicPath": "http://localhost:8080/app.dc1a91039c227005.hot-update.js"
+    },
+    "app.dc1a91039c227005.hot-update.json": {
+      "name": "app.dc1a91039c227005.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.dc1a91039c227005.hot-update.json",
+      "publicPath": "http://localhost:8080/app.dc1a91039c227005.hot-update.json"
+    },
+    "app.dd6096e493cc318d.hot-update.js": {
+      "name": "app.dd6096e493cc318d.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.dd6096e493cc318d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.dd6096e493cc318d.hot-update.js"
+    },
+    "app.dd6096e493cc318d.hot-update.json": {
+      "name": "app.dd6096e493cc318d.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.dd6096e493cc318d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.dd6096e493cc318d.hot-update.json"
+    },
+    "app.e219f65d4f097559.hot-update.js": {
+      "name": "app.e219f65d4f097559.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.e219f65d4f097559.hot-update.js",
+      "publicPath": "http://localhost:8080/app.e219f65d4f097559.hot-update.js"
+    },
+    "app.e219f65d4f097559.hot-update.json": {
+      "name": "app.e219f65d4f097559.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.e219f65d4f097559.hot-update.json",
+      "publicPath": "http://localhost:8080/app.e219f65d4f097559.hot-update.json"
+    },
+    "app.e4f480ad2c4dc194.hot-update.js": {
+      "name": "app.e4f480ad2c4dc194.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.e4f480ad2c4dc194.hot-update.js",
+      "publicPath": "http://localhost:8080/app.e4f480ad2c4dc194.hot-update.js"
+    },
+    "app.e4f480ad2c4dc194.hot-update.json": {
+      "name": "app.e4f480ad2c4dc194.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.e4f480ad2c4dc194.hot-update.json",
+      "publicPath": "http://localhost:8080/app.e4f480ad2c4dc194.hot-update.json"
+    },
+    "app.e5de06e202fe8efb.hot-update.js": {
+      "name": "app.e5de06e202fe8efb.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.e5de06e202fe8efb.hot-update.js",
+      "publicPath": "http://localhost:8080/app.e5de06e202fe8efb.hot-update.js"
+    },
+    "app.e5de06e202fe8efb.hot-update.json": {
+      "name": "app.e5de06e202fe8efb.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.e5de06e202fe8efb.hot-update.json",
+      "publicPath": "http://localhost:8080/app.e5de06e202fe8efb.hot-update.json"
+    },
+    "app.eea0180d30769b54.hot-update.js": {
+      "name": "app.eea0180d30769b54.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.eea0180d30769b54.hot-update.js",
+      "publicPath": "http://localhost:8080/app.eea0180d30769b54.hot-update.js"
+    },
+    "app.eea0180d30769b54.hot-update.json": {
+      "name": "app.eea0180d30769b54.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.eea0180d30769b54.hot-update.json",
+      "publicPath": "http://localhost:8080/app.eea0180d30769b54.hot-update.json"
+    },
+    "app.f79a2cbd9df7d7dc.hot-update.js": {
+      "name": "app.f79a2cbd9df7d7dc.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.f79a2cbd9df7d7dc.hot-update.js",
+      "publicPath": "http://localhost:8080/app.f79a2cbd9df7d7dc.hot-update.js"
+    },
+    "app.f79a2cbd9df7d7dc.hot-update.json": {
+      "name": "app.f79a2cbd9df7d7dc.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.f79a2cbd9df7d7dc.hot-update.json",
+      "publicPath": "http://localhost:8080/app.f79a2cbd9df7d7dc.hot-update.json"
+    },
+    "app.f7f821233b3aeb9f.hot-update.js": {
+      "name": "app.f7f821233b3aeb9f.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.f7f821233b3aeb9f.hot-update.js",
+      "publicPath": "http://localhost:8080/app.f7f821233b3aeb9f.hot-update.js"
+    },
+    "app.f7f821233b3aeb9f.hot-update.json": {
+      "name": "app.f7f821233b3aeb9f.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.f7f821233b3aeb9f.hot-update.json",
+      "publicPath": "http://localhost:8080/app.f7f821233b3aeb9f.hot-update.json"
+    },
+    "app.f9919c600b99db2e.hot-update.js": {
+      "name": "app.f9919c600b99db2e.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.f9919c600b99db2e.hot-update.js",
+      "publicPath": "http://localhost:8080/app.f9919c600b99db2e.hot-update.js"
+    },
+    "app.f9919c600b99db2e.hot-update.json": {
+      "name": "app.f9919c600b99db2e.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\app.f9919c600b99db2e.hot-update.json",
+      "publicPath": "http://localhost:8080/app.f9919c600b99db2e.hot-update.json"
     },
     "favicon.ico": {
       "name": "favicon.ico",
@@ -81,70 +561,548 @@
       "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\js\\main.js",
       "publicPath": "http://localhost:8080/js/main.js"
     },
-    "main.30bf779f61aeeec8.hot-update.js": {
-      "name": "main.30bf779f61aeeec8.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.30bf779f61aeeec8.hot-update.js",
-      "publicPath": "http://localhost:8080/main.30bf779f61aeeec8.hot-update.js"
+    "main.0b020e7335c27fc1.hot-update.js": {
+      "name": "main.0b020e7335c27fc1.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.0b020e7335c27fc1.hot-update.js",
+      "publicPath": "http://localhost:8080/main.0b020e7335c27fc1.hot-update.js"
     },
-    "main.30bf779f61aeeec8.hot-update.json": {
-      "name": "main.30bf779f61aeeec8.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.30bf779f61aeeec8.hot-update.json",
-      "publicPath": "http://localhost:8080/main.30bf779f61aeeec8.hot-update.json"
+    "main.0b020e7335c27fc1.hot-update.json": {
+      "name": "main.0b020e7335c27fc1.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.0b020e7335c27fc1.hot-update.json",
+      "publicPath": "http://localhost:8080/main.0b020e7335c27fc1.hot-update.json"
     },
-    "main.39e20249a87ad9f6.hot-update.js": {
-      "name": "main.39e20249a87ad9f6.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.39e20249a87ad9f6.hot-update.js",
-      "publicPath": "http://localhost:8080/main.39e20249a87ad9f6.hot-update.js"
+    "main.12592ec46f968508.hot-update.js": {
+      "name": "main.12592ec46f968508.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.12592ec46f968508.hot-update.js",
+      "publicPath": "http://localhost:8080/main.12592ec46f968508.hot-update.js"
     },
-    "main.39e20249a87ad9f6.hot-update.json": {
-      "name": "main.39e20249a87ad9f6.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.39e20249a87ad9f6.hot-update.json",
-      "publicPath": "http://localhost:8080/main.39e20249a87ad9f6.hot-update.json"
+    "main.12592ec46f968508.hot-update.json": {
+      "name": "main.12592ec46f968508.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.12592ec46f968508.hot-update.json",
+      "publicPath": "http://localhost:8080/main.12592ec46f968508.hot-update.json"
     },
-    "main.92deae664789a74f.hot-update.js": {
-      "name": "main.92deae664789a74f.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.92deae664789a74f.hot-update.js",
-      "publicPath": "http://localhost:8080/main.92deae664789a74f.hot-update.js"
+    "main.13ca96727a14d89d.hot-update.js": {
+      "name": "main.13ca96727a14d89d.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.13ca96727a14d89d.hot-update.js",
+      "publicPath": "http://localhost:8080/main.13ca96727a14d89d.hot-update.js"
     },
-    "main.92deae664789a74f.hot-update.json": {
-      "name": "main.92deae664789a74f.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.92deae664789a74f.hot-update.json",
-      "publicPath": "http://localhost:8080/main.92deae664789a74f.hot-update.json"
+    "main.13ca96727a14d89d.hot-update.json": {
+      "name": "main.13ca96727a14d89d.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.13ca96727a14d89d.hot-update.json",
+      "publicPath": "http://localhost:8080/main.13ca96727a14d89d.hot-update.json"
     },
-    "main.c141a25bfa4b957c.hot-update.js": {
-      "name": "main.c141a25bfa4b957c.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.c141a25bfa4b957c.hot-update.js",
-      "publicPath": "http://localhost:8080/main.c141a25bfa4b957c.hot-update.js"
+    "main.13daefc29dcc3011.hot-update.js": {
+      "name": "main.13daefc29dcc3011.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.13daefc29dcc3011.hot-update.js",
+      "publicPath": "http://localhost:8080/main.13daefc29dcc3011.hot-update.js"
     },
-    "main.c141a25bfa4b957c.hot-update.json": {
-      "name": "main.c141a25bfa4b957c.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.c141a25bfa4b957c.hot-update.json",
-      "publicPath": "http://localhost:8080/main.c141a25bfa4b957c.hot-update.json"
+    "main.13daefc29dcc3011.hot-update.json": {
+      "name": "main.13daefc29dcc3011.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.13daefc29dcc3011.hot-update.json",
+      "publicPath": "http://localhost:8080/main.13daefc29dcc3011.hot-update.json"
     },
-    "main.c6857156c61160d2.hot-update.js": {
-      "name": "main.c6857156c61160d2.hot-update.js",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.c6857156c61160d2.hot-update.js",
-      "publicPath": "http://localhost:8080/main.c6857156c61160d2.hot-update.js"
+    "main.1c65a55e1715ba29.hot-update.js": {
+      "name": "main.1c65a55e1715ba29.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.1c65a55e1715ba29.hot-update.js",
+      "publicPath": "http://localhost:8080/main.1c65a55e1715ba29.hot-update.js"
     },
-    "main.c6857156c61160d2.hot-update.json": {
-      "name": "main.c6857156c61160d2.hot-update.json",
-      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.c6857156c61160d2.hot-update.json",
-      "publicPath": "http://localhost:8080/main.c6857156c61160d2.hot-update.json"
+    "main.1c65a55e1715ba29.hot-update.json": {
+      "name": "main.1c65a55e1715ba29.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.1c65a55e1715ba29.hot-update.json",
+      "publicPath": "http://localhost:8080/main.1c65a55e1715ba29.hot-update.json"
+    },
+    "main.1f782a9ee8e25f5c.hot-update.js": {
+      "name": "main.1f782a9ee8e25f5c.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.1f782a9ee8e25f5c.hot-update.js",
+      "publicPath": "http://localhost:8080/main.1f782a9ee8e25f5c.hot-update.js"
+    },
+    "main.1f782a9ee8e25f5c.hot-update.json": {
+      "name": "main.1f782a9ee8e25f5c.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.1f782a9ee8e25f5c.hot-update.json",
+      "publicPath": "http://localhost:8080/main.1f782a9ee8e25f5c.hot-update.json"
+    },
+    "main.1f9f3fa1f89d0595.hot-update.js": {
+      "name": "main.1f9f3fa1f89d0595.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.1f9f3fa1f89d0595.hot-update.js",
+      "publicPath": "http://localhost:8080/main.1f9f3fa1f89d0595.hot-update.js"
+    },
+    "main.1f9f3fa1f89d0595.hot-update.json": {
+      "name": "main.1f9f3fa1f89d0595.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.1f9f3fa1f89d0595.hot-update.json",
+      "publicPath": "http://localhost:8080/main.1f9f3fa1f89d0595.hot-update.json"
+    },
+    "main.2eeff649e0b94ef0.hot-update.js": {
+      "name": "main.2eeff649e0b94ef0.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.2eeff649e0b94ef0.hot-update.js",
+      "publicPath": "http://localhost:8080/main.2eeff649e0b94ef0.hot-update.js"
+    },
+    "main.2eeff649e0b94ef0.hot-update.json": {
+      "name": "main.2eeff649e0b94ef0.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.2eeff649e0b94ef0.hot-update.json",
+      "publicPath": "http://localhost:8080/main.2eeff649e0b94ef0.hot-update.json"
+    },
+    "main.33818e5c92a1730a.hot-update.js": {
+      "name": "main.33818e5c92a1730a.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.33818e5c92a1730a.hot-update.js",
+      "publicPath": "http://localhost:8080/main.33818e5c92a1730a.hot-update.js"
+    },
+    "main.33818e5c92a1730a.hot-update.json": {
+      "name": "main.33818e5c92a1730a.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.33818e5c92a1730a.hot-update.json",
+      "publicPath": "http://localhost:8080/main.33818e5c92a1730a.hot-update.json"
+    },
+    "main.33b126e936e59344.hot-update.js": {
+      "name": "main.33b126e936e59344.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.33b126e936e59344.hot-update.js",
+      "publicPath": "http://localhost:8080/main.33b126e936e59344.hot-update.js"
+    },
+    "main.33b126e936e59344.hot-update.json": {
+      "name": "main.33b126e936e59344.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.33b126e936e59344.hot-update.json",
+      "publicPath": "http://localhost:8080/main.33b126e936e59344.hot-update.json"
+    },
+    "main.3735b17dfece4e28.hot-update.js": {
+      "name": "main.3735b17dfece4e28.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.3735b17dfece4e28.hot-update.js",
+      "publicPath": "http://localhost:8080/main.3735b17dfece4e28.hot-update.js"
+    },
+    "main.3735b17dfece4e28.hot-update.json": {
+      "name": "main.3735b17dfece4e28.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.3735b17dfece4e28.hot-update.json",
+      "publicPath": "http://localhost:8080/main.3735b17dfece4e28.hot-update.json"
+    },
+    "main.37bad7102c54ff99.hot-update.js": {
+      "name": "main.37bad7102c54ff99.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.37bad7102c54ff99.hot-update.js",
+      "publicPath": "http://localhost:8080/main.37bad7102c54ff99.hot-update.js"
+    },
+    "main.37bad7102c54ff99.hot-update.json": {
+      "name": "main.37bad7102c54ff99.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.37bad7102c54ff99.hot-update.json",
+      "publicPath": "http://localhost:8080/main.37bad7102c54ff99.hot-update.json"
+    },
+    "main.39b506144055f599.hot-update.js": {
+      "name": "main.39b506144055f599.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.39b506144055f599.hot-update.js",
+      "publicPath": "http://localhost:8080/main.39b506144055f599.hot-update.js"
+    },
+    "main.39b506144055f599.hot-update.json": {
+      "name": "main.39b506144055f599.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.39b506144055f599.hot-update.json",
+      "publicPath": "http://localhost:8080/main.39b506144055f599.hot-update.json"
+    },
+    "main.3a735d1f70e958ff.hot-update.js": {
+      "name": "main.3a735d1f70e958ff.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.3a735d1f70e958ff.hot-update.js",
+      "publicPath": "http://localhost:8080/main.3a735d1f70e958ff.hot-update.js"
+    },
+    "main.3a735d1f70e958ff.hot-update.json": {
+      "name": "main.3a735d1f70e958ff.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.3a735d1f70e958ff.hot-update.json",
+      "publicPath": "http://localhost:8080/main.3a735d1f70e958ff.hot-update.json"
+    },
+    "main.3d6ad878a55e911c.hot-update.js": {
+      "name": "main.3d6ad878a55e911c.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.3d6ad878a55e911c.hot-update.js",
+      "publicPath": "http://localhost:8080/main.3d6ad878a55e911c.hot-update.js"
+    },
+    "main.3d6ad878a55e911c.hot-update.json": {
+      "name": "main.3d6ad878a55e911c.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.3d6ad878a55e911c.hot-update.json",
+      "publicPath": "http://localhost:8080/main.3d6ad878a55e911c.hot-update.json"
+    },
+    "main.3e00eaaccddf8568.hot-update.js": {
+      "name": "main.3e00eaaccddf8568.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.3e00eaaccddf8568.hot-update.js",
+      "publicPath": "http://localhost:8080/main.3e00eaaccddf8568.hot-update.js"
+    },
+    "main.3e00eaaccddf8568.hot-update.json": {
+      "name": "main.3e00eaaccddf8568.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.3e00eaaccddf8568.hot-update.json",
+      "publicPath": "http://localhost:8080/main.3e00eaaccddf8568.hot-update.json"
+    },
+    "main.428b99ddbb7a755f.hot-update.js": {
+      "name": "main.428b99ddbb7a755f.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.428b99ddbb7a755f.hot-update.js",
+      "publicPath": "http://localhost:8080/main.428b99ddbb7a755f.hot-update.js"
+    },
+    "main.428b99ddbb7a755f.hot-update.json": {
+      "name": "main.428b99ddbb7a755f.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.428b99ddbb7a755f.hot-update.json",
+      "publicPath": "http://localhost:8080/main.428b99ddbb7a755f.hot-update.json"
+    },
+    "main.4800b9d77cb07a64.hot-update.js": {
+      "name": "main.4800b9d77cb07a64.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.4800b9d77cb07a64.hot-update.js",
+      "publicPath": "http://localhost:8080/main.4800b9d77cb07a64.hot-update.js"
+    },
+    "main.4800b9d77cb07a64.hot-update.json": {
+      "name": "main.4800b9d77cb07a64.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.4800b9d77cb07a64.hot-update.json",
+      "publicPath": "http://localhost:8080/main.4800b9d77cb07a64.hot-update.json"
+    },
+    "main.51bb8229a1b9e00b.hot-update.js": {
+      "name": "main.51bb8229a1b9e00b.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.51bb8229a1b9e00b.hot-update.js",
+      "publicPath": "http://localhost:8080/main.51bb8229a1b9e00b.hot-update.js"
+    },
+    "main.51bb8229a1b9e00b.hot-update.json": {
+      "name": "main.51bb8229a1b9e00b.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.51bb8229a1b9e00b.hot-update.json",
+      "publicPath": "http://localhost:8080/main.51bb8229a1b9e00b.hot-update.json"
+    },
+    "main.53538cb31fb087ef.hot-update.js": {
+      "name": "main.53538cb31fb087ef.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.53538cb31fb087ef.hot-update.js",
+      "publicPath": "http://localhost:8080/main.53538cb31fb087ef.hot-update.js"
+    },
+    "main.53538cb31fb087ef.hot-update.json": {
+      "name": "main.53538cb31fb087ef.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.53538cb31fb087ef.hot-update.json",
+      "publicPath": "http://localhost:8080/main.53538cb31fb087ef.hot-update.json"
+    },
+    "main.57d01f6dad6e1b58.hot-update.js": {
+      "name": "main.57d01f6dad6e1b58.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.57d01f6dad6e1b58.hot-update.js",
+      "publicPath": "http://localhost:8080/main.57d01f6dad6e1b58.hot-update.js"
+    },
+    "main.57d01f6dad6e1b58.hot-update.json": {
+      "name": "main.57d01f6dad6e1b58.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.57d01f6dad6e1b58.hot-update.json",
+      "publicPath": "http://localhost:8080/main.57d01f6dad6e1b58.hot-update.json"
+    },
+    "main.58e2588349e0ad9d.hot-update.js": {
+      "name": "main.58e2588349e0ad9d.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.58e2588349e0ad9d.hot-update.js",
+      "publicPath": "http://localhost:8080/main.58e2588349e0ad9d.hot-update.js"
+    },
+    "main.58e2588349e0ad9d.hot-update.json": {
+      "name": "main.58e2588349e0ad9d.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.58e2588349e0ad9d.hot-update.json",
+      "publicPath": "http://localhost:8080/main.58e2588349e0ad9d.hot-update.json"
+    },
+    "main.5a57f328f7a1afca.hot-update.js": {
+      "name": "main.5a57f328f7a1afca.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.5a57f328f7a1afca.hot-update.js",
+      "publicPath": "http://localhost:8080/main.5a57f328f7a1afca.hot-update.js"
+    },
+    "main.5a57f328f7a1afca.hot-update.json": {
+      "name": "main.5a57f328f7a1afca.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.5a57f328f7a1afca.hot-update.json",
+      "publicPath": "http://localhost:8080/main.5a57f328f7a1afca.hot-update.json"
+    },
+    "main.5b7c8fe08df6c399.hot-update.js": {
+      "name": "main.5b7c8fe08df6c399.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.5b7c8fe08df6c399.hot-update.js",
+      "publicPath": "http://localhost:8080/main.5b7c8fe08df6c399.hot-update.js"
+    },
+    "main.5b7c8fe08df6c399.hot-update.json": {
+      "name": "main.5b7c8fe08df6c399.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.5b7c8fe08df6c399.hot-update.json",
+      "publicPath": "http://localhost:8080/main.5b7c8fe08df6c399.hot-update.json"
+    },
+    "main.6cfa9645c3859bb1.hot-update.js": {
+      "name": "main.6cfa9645c3859bb1.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.6cfa9645c3859bb1.hot-update.js",
+      "publicPath": "http://localhost:8080/main.6cfa9645c3859bb1.hot-update.js"
+    },
+    "main.6cfa9645c3859bb1.hot-update.json": {
+      "name": "main.6cfa9645c3859bb1.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.6cfa9645c3859bb1.hot-update.json",
+      "publicPath": "http://localhost:8080/main.6cfa9645c3859bb1.hot-update.json"
+    },
+    "main.6d06460cb1398381.hot-update.js": {
+      "name": "main.6d06460cb1398381.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.6d06460cb1398381.hot-update.js",
+      "publicPath": "http://localhost:8080/main.6d06460cb1398381.hot-update.js"
+    },
+    "main.6d06460cb1398381.hot-update.json": {
+      "name": "main.6d06460cb1398381.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.6d06460cb1398381.hot-update.json",
+      "publicPath": "http://localhost:8080/main.6d06460cb1398381.hot-update.json"
+    },
+    "main.70943fb4ea56f182.hot-update.js": {
+      "name": "main.70943fb4ea56f182.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.70943fb4ea56f182.hot-update.js",
+      "publicPath": "http://localhost:8080/main.70943fb4ea56f182.hot-update.js"
+    },
+    "main.70943fb4ea56f182.hot-update.json": {
+      "name": "main.70943fb4ea56f182.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.70943fb4ea56f182.hot-update.json",
+      "publicPath": "http://localhost:8080/main.70943fb4ea56f182.hot-update.json"
+    },
+    "main.74645a80ef80fa5c.hot-update.js": {
+      "name": "main.74645a80ef80fa5c.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.74645a80ef80fa5c.hot-update.js",
+      "publicPath": "http://localhost:8080/main.74645a80ef80fa5c.hot-update.js"
+    },
+    "main.74645a80ef80fa5c.hot-update.json": {
+      "name": "main.74645a80ef80fa5c.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.74645a80ef80fa5c.hot-update.json",
+      "publicPath": "http://localhost:8080/main.74645a80ef80fa5c.hot-update.json"
+    },
+    "main.74c3edaf2a74d86c.hot-update.js": {
+      "name": "main.74c3edaf2a74d86c.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.74c3edaf2a74d86c.hot-update.js",
+      "publicPath": "http://localhost:8080/main.74c3edaf2a74d86c.hot-update.js"
+    },
+    "main.74c3edaf2a74d86c.hot-update.json": {
+      "name": "main.74c3edaf2a74d86c.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.74c3edaf2a74d86c.hot-update.json",
+      "publicPath": "http://localhost:8080/main.74c3edaf2a74d86c.hot-update.json"
+    },
+    "main.7f347ce2485a287b.hot-update.js": {
+      "name": "main.7f347ce2485a287b.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.7f347ce2485a287b.hot-update.js",
+      "publicPath": "http://localhost:8080/main.7f347ce2485a287b.hot-update.js"
+    },
+    "main.7f347ce2485a287b.hot-update.json": {
+      "name": "main.7f347ce2485a287b.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.7f347ce2485a287b.hot-update.json",
+      "publicPath": "http://localhost:8080/main.7f347ce2485a287b.hot-update.json"
+    },
+    "main.94cf44703e1fdc13.hot-update.js": {
+      "name": "main.94cf44703e1fdc13.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.94cf44703e1fdc13.hot-update.js",
+      "publicPath": "http://localhost:8080/main.94cf44703e1fdc13.hot-update.js"
+    },
+    "main.94cf44703e1fdc13.hot-update.json": {
+      "name": "main.94cf44703e1fdc13.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.94cf44703e1fdc13.hot-update.json",
+      "publicPath": "http://localhost:8080/main.94cf44703e1fdc13.hot-update.json"
+    },
+    "main.9761ed20321dd6f5.hot-update.js": {
+      "name": "main.9761ed20321dd6f5.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.9761ed20321dd6f5.hot-update.js",
+      "publicPath": "http://localhost:8080/main.9761ed20321dd6f5.hot-update.js"
+    },
+    "main.9761ed20321dd6f5.hot-update.json": {
+      "name": "main.9761ed20321dd6f5.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.9761ed20321dd6f5.hot-update.json",
+      "publicPath": "http://localhost:8080/main.9761ed20321dd6f5.hot-update.json"
+    },
+    "main.998831c07fff459e.hot-update.js": {
+      "name": "main.998831c07fff459e.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.998831c07fff459e.hot-update.js",
+      "publicPath": "http://localhost:8080/main.998831c07fff459e.hot-update.js"
+    },
+    "main.998831c07fff459e.hot-update.json": {
+      "name": "main.998831c07fff459e.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.998831c07fff459e.hot-update.json",
+      "publicPath": "http://localhost:8080/main.998831c07fff459e.hot-update.json"
+    },
+    "main.a3b6eaac2e1b3050.hot-update.js": {
+      "name": "main.a3b6eaac2e1b3050.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.a3b6eaac2e1b3050.hot-update.js",
+      "publicPath": "http://localhost:8080/main.a3b6eaac2e1b3050.hot-update.js"
+    },
+    "main.a3b6eaac2e1b3050.hot-update.json": {
+      "name": "main.a3b6eaac2e1b3050.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.a3b6eaac2e1b3050.hot-update.json",
+      "publicPath": "http://localhost:8080/main.a3b6eaac2e1b3050.hot-update.json"
+    },
+    "main.a410aba6cfe6ed2c.hot-update.js": {
+      "name": "main.a410aba6cfe6ed2c.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.a410aba6cfe6ed2c.hot-update.js",
+      "publicPath": "http://localhost:8080/main.a410aba6cfe6ed2c.hot-update.js"
+    },
+    "main.a410aba6cfe6ed2c.hot-update.json": {
+      "name": "main.a410aba6cfe6ed2c.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.a410aba6cfe6ed2c.hot-update.json",
+      "publicPath": "http://localhost:8080/main.a410aba6cfe6ed2c.hot-update.json"
+    },
+    "main.ab6bf6477dfd6323.hot-update.js": {
+      "name": "main.ab6bf6477dfd6323.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.ab6bf6477dfd6323.hot-update.js",
+      "publicPath": "http://localhost:8080/main.ab6bf6477dfd6323.hot-update.js"
+    },
+    "main.ab6bf6477dfd6323.hot-update.json": {
+      "name": "main.ab6bf6477dfd6323.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.ab6bf6477dfd6323.hot-update.json",
+      "publicPath": "http://localhost:8080/main.ab6bf6477dfd6323.hot-update.json"
+    },
+    "main.afff11b864d91037.hot-update.js": {
+      "name": "main.afff11b864d91037.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.afff11b864d91037.hot-update.js",
+      "publicPath": "http://localhost:8080/main.afff11b864d91037.hot-update.js"
+    },
+    "main.afff11b864d91037.hot-update.json": {
+      "name": "main.afff11b864d91037.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.afff11b864d91037.hot-update.json",
+      "publicPath": "http://localhost:8080/main.afff11b864d91037.hot-update.json"
+    },
+    "main.b39b3a59c66b3da9.hot-update.js": {
+      "name": "main.b39b3a59c66b3da9.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.b39b3a59c66b3da9.hot-update.js",
+      "publicPath": "http://localhost:8080/main.b39b3a59c66b3da9.hot-update.js"
+    },
+    "main.b39b3a59c66b3da9.hot-update.json": {
+      "name": "main.b39b3a59c66b3da9.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.b39b3a59c66b3da9.hot-update.json",
+      "publicPath": "http://localhost:8080/main.b39b3a59c66b3da9.hot-update.json"
+    },
+    "main.bbcd5e0a7e624ea3.hot-update.js": {
+      "name": "main.bbcd5e0a7e624ea3.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.bbcd5e0a7e624ea3.hot-update.js",
+      "publicPath": "http://localhost:8080/main.bbcd5e0a7e624ea3.hot-update.js"
+    },
+    "main.bbcd5e0a7e624ea3.hot-update.json": {
+      "name": "main.bbcd5e0a7e624ea3.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.bbcd5e0a7e624ea3.hot-update.json",
+      "publicPath": "http://localhost:8080/main.bbcd5e0a7e624ea3.hot-update.json"
+    },
+    "main.bf438d2de105bea9.hot-update.js": {
+      "name": "main.bf438d2de105bea9.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.bf438d2de105bea9.hot-update.js",
+      "publicPath": "http://localhost:8080/main.bf438d2de105bea9.hot-update.js"
+    },
+    "main.bf438d2de105bea9.hot-update.json": {
+      "name": "main.bf438d2de105bea9.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.bf438d2de105bea9.hot-update.json",
+      "publicPath": "http://localhost:8080/main.bf438d2de105bea9.hot-update.json"
+    },
+    "main.c37c3653545ca8f8.hot-update.js": {
+      "name": "main.c37c3653545ca8f8.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.c37c3653545ca8f8.hot-update.js",
+      "publicPath": "http://localhost:8080/main.c37c3653545ca8f8.hot-update.js"
+    },
+    "main.c37c3653545ca8f8.hot-update.json": {
+      "name": "main.c37c3653545ca8f8.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.c37c3653545ca8f8.hot-update.json",
+      "publicPath": "http://localhost:8080/main.c37c3653545ca8f8.hot-update.json"
+    },
+    "main.c844fa902a534211.hot-update.js": {
+      "name": "main.c844fa902a534211.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.c844fa902a534211.hot-update.js",
+      "publicPath": "http://localhost:8080/main.c844fa902a534211.hot-update.js"
+    },
+    "main.c844fa902a534211.hot-update.json": {
+      "name": "main.c844fa902a534211.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.c844fa902a534211.hot-update.json",
+      "publicPath": "http://localhost:8080/main.c844fa902a534211.hot-update.json"
+    },
+    "main.ca943e26d6eeecdf.hot-update.js": {
+      "name": "main.ca943e26d6eeecdf.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.ca943e26d6eeecdf.hot-update.js",
+      "publicPath": "http://localhost:8080/main.ca943e26d6eeecdf.hot-update.js"
+    },
+    "main.ca943e26d6eeecdf.hot-update.json": {
+      "name": "main.ca943e26d6eeecdf.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.ca943e26d6eeecdf.hot-update.json",
+      "publicPath": "http://localhost:8080/main.ca943e26d6eeecdf.hot-update.json"
+    },
+    "main.d88f794d6e90e813.hot-update.js": {
+      "name": "main.d88f794d6e90e813.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.d88f794d6e90e813.hot-update.js",
+      "publicPath": "http://localhost:8080/main.d88f794d6e90e813.hot-update.js"
+    },
+    "main.d88f794d6e90e813.hot-update.json": {
+      "name": "main.d88f794d6e90e813.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.d88f794d6e90e813.hot-update.json",
+      "publicPath": "http://localhost:8080/main.d88f794d6e90e813.hot-update.json"
+    },
+    "main.dc1a91039c227005.hot-update.js": {
+      "name": "main.dc1a91039c227005.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.dc1a91039c227005.hot-update.js",
+      "publicPath": "http://localhost:8080/main.dc1a91039c227005.hot-update.js"
+    },
+    "main.dc1a91039c227005.hot-update.json": {
+      "name": "main.dc1a91039c227005.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.dc1a91039c227005.hot-update.json",
+      "publicPath": "http://localhost:8080/main.dc1a91039c227005.hot-update.json"
+    },
+    "main.dd6096e493cc318d.hot-update.js": {
+      "name": "main.dd6096e493cc318d.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.dd6096e493cc318d.hot-update.js",
+      "publicPath": "http://localhost:8080/main.dd6096e493cc318d.hot-update.js"
+    },
+    "main.dd6096e493cc318d.hot-update.json": {
+      "name": "main.dd6096e493cc318d.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.dd6096e493cc318d.hot-update.json",
+      "publicPath": "http://localhost:8080/main.dd6096e493cc318d.hot-update.json"
+    },
+    "main.e219f65d4f097559.hot-update.js": {
+      "name": "main.e219f65d4f097559.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.e219f65d4f097559.hot-update.js",
+      "publicPath": "http://localhost:8080/main.e219f65d4f097559.hot-update.js"
+    },
+    "main.e219f65d4f097559.hot-update.json": {
+      "name": "main.e219f65d4f097559.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.e219f65d4f097559.hot-update.json",
+      "publicPath": "http://localhost:8080/main.e219f65d4f097559.hot-update.json"
+    },
+    "main.e4f480ad2c4dc194.hot-update.js": {
+      "name": "main.e4f480ad2c4dc194.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.e4f480ad2c4dc194.hot-update.js",
+      "publicPath": "http://localhost:8080/main.e4f480ad2c4dc194.hot-update.js"
+    },
+    "main.e4f480ad2c4dc194.hot-update.json": {
+      "name": "main.e4f480ad2c4dc194.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.e4f480ad2c4dc194.hot-update.json",
+      "publicPath": "http://localhost:8080/main.e4f480ad2c4dc194.hot-update.json"
+    },
+    "main.e5de06e202fe8efb.hot-update.js": {
+      "name": "main.e5de06e202fe8efb.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.e5de06e202fe8efb.hot-update.js",
+      "publicPath": "http://localhost:8080/main.e5de06e202fe8efb.hot-update.js"
+    },
+    "main.e5de06e202fe8efb.hot-update.json": {
+      "name": "main.e5de06e202fe8efb.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.e5de06e202fe8efb.hot-update.json",
+      "publicPath": "http://localhost:8080/main.e5de06e202fe8efb.hot-update.json"
+    },
+    "main.eea0180d30769b54.hot-update.js": {
+      "name": "main.eea0180d30769b54.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.eea0180d30769b54.hot-update.js",
+      "publicPath": "http://localhost:8080/main.eea0180d30769b54.hot-update.js"
+    },
+    "main.eea0180d30769b54.hot-update.json": {
+      "name": "main.eea0180d30769b54.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.eea0180d30769b54.hot-update.json",
+      "publicPath": "http://localhost:8080/main.eea0180d30769b54.hot-update.json"
+    },
+    "main.f79a2cbd9df7d7dc.hot-update.js": {
+      "name": "main.f79a2cbd9df7d7dc.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.f79a2cbd9df7d7dc.hot-update.js",
+      "publicPath": "http://localhost:8080/main.f79a2cbd9df7d7dc.hot-update.js"
+    },
+    "main.f79a2cbd9df7d7dc.hot-update.json": {
+      "name": "main.f79a2cbd9df7d7dc.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.f79a2cbd9df7d7dc.hot-update.json",
+      "publicPath": "http://localhost:8080/main.f79a2cbd9df7d7dc.hot-update.json"
+    },
+    "main.f7f821233b3aeb9f.hot-update.js": {
+      "name": "main.f7f821233b3aeb9f.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.f7f821233b3aeb9f.hot-update.js",
+      "publicPath": "http://localhost:8080/main.f7f821233b3aeb9f.hot-update.js"
+    },
+    "main.f7f821233b3aeb9f.hot-update.json": {
+      "name": "main.f7f821233b3aeb9f.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.f7f821233b3aeb9f.hot-update.json",
+      "publicPath": "http://localhost:8080/main.f7f821233b3aeb9f.hot-update.json"
+    },
+    "main.f9919c600b99db2e.hot-update.js": {
+      "name": "main.f9919c600b99db2e.hot-update.js",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.f9919c600b99db2e.hot-update.js",
+      "publicPath": "http://localhost:8080/main.f9919c600b99db2e.hot-update.js"
+    },
+    "main.f9919c600b99db2e.hot-update.json": {
+      "name": "main.f9919c600b99db2e.hot-update.json",
+      "path": "C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\wikihow_app\\static\\vue\\main.f9919c600b99db2e.hot-update.json",
+      "publicPath": "http://localhost:8080/main.f9919c600b99db2e.hot-update.json"
     }
   },
   "chunks": {
     "app": [
       "js/chunk-common.js",
-      "js/app.js",
-      "app.c141a25bfa4b957c.hot-update.js"
+      "js/app.js"
     ],
     "main": [
       "js/chunk-common.js",
-      "js/main.js",
-      "main.c141a25bfa4b957c.hot-update.js"
+      "js/main.js"
     ]
   },
   "publicPath": "http://localhost:8080/",
-  "error": "ESLintError",
-  "message": "[eslint] \nC:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\frontend\\src\\store\\modules\\home.js\n  50:36  error  'url' is not defined   no-undef\n  61:30  error  'data' is not defined  no-undef\n  73:7   error  Unreachable code       no-unreachable\n\n✖ 3 problems (3 errors, 0 warnings)\n"
+  "error": "ModuleError",
+  "message": "Module Error (from ./node_modules/vue-loader/dist/templateLoader.js):\n\nVueCompilerError: v-else/v-else-if has no adjacent v-if or v-else-if.\nat C:\\Users\\Adrian\\GitUniHamburg\\Masterprojekt\\AdaptiveStoryFinder\\frontend\\src\\views\\HomeView.vue:87:11\n85 |            </div>noResult\n86 |  \n87 |            <div class=\"col-8\" v-else>\n   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^\n88 |                <h3>Sorry, no results found for {{ searchQuery }} ...</h3>\n   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n89 |                <p v-if=\"error\">{{ error.message }}</p>\n   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n90 |            </div>\n   |  ^^^^^^^^^^^^^^^^\n"
 }

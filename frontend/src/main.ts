@@ -12,6 +12,11 @@ import 'bootstrap/dist/css/bootstrap.css'
 //import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.js'
 import "bootstrap";
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'jquery/src/jquery.js'
+import 'bootstrap/dist/js/bootstrap.min.js'
+
+
 //import '@/assets/css/tailwind.css'
 import axios from 'axios'
 import VueAxios from 'vue-axios'

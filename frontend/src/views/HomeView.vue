@@ -1,48 +1,180 @@
+<script setup>
+import { useHomeStore } from "@/store/modules/home"
+//import { RouterLink } from 'vue-router'
+import { storeToRefs } from 'pinia'
+
+//const { results, loading, error } = storeToRefs(useHomeStore())
+//const { fetchSearchResults } = useHomeStore()
+
+//fetchSearchResults("test")
+
+</script>
+
 <template>
-  <div>
-    <div id="app">
-      <NavigationMobile />
-      <div class="content" :class="{'open':showNav}">
-        <div class="top-bar">
-          <Navigation v-if="!mobileView" />
+  <div id="home" class="divide-y divide-gray-200">
+
+    <header>
+    <div class="container-fluid">
+      <div class="row display-flex no-gutters">
+        <div class="col-xs-6 col-md-2 bg-dark">
+          <h1 class="responsive-font-example">Adaptive Storyfinder</h1>
         </div>
-        <Content />
-      </div>
+        <div class="col-xs-6 col-md-8 bg-white ms-auto">
+
+            <div class="container">
+            <form class="search-box" @submit.prevent="handleSearch">
+            <input 
+            type="search"
+            class="search-field rounded" 
+            placeholder="Search ..."
+            aria-label="Search"
+            required
+            v-model.trim="searchQuery" />
+            <span class="input-group-text border-0 bg-transparent" id="search-addon">
+              <i class="fas fa-search"></i>
+            </span>
+            </form>
+            </div>
+
+        </div>
+         <div class="col-xs-6 col-md-2">
+        </div>
     </div>
+
+    </div>
+    </header>
+
+    <main>
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-auto">
+            <div class="container">
+            </div>
+          </div>
+
+          <div class="col-8" v-if="noResult != null">
+            <div class="cards" v-if="results.length > 0">
+              <ul class="list-group">
+              <li class="list-group-item" v-for="(item) in this.results" :key="item">
+
+                <div class="card text-bg-white mb-3" style="max-width: 700px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img :src="exampleThumbnail" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-header "> {{ item.advice }} </div>
+                      <div class="card-body">
+                        <h5 class="card-title"> {{ item.advice }}</h5>
+                        <p class="card-text"> {{ item.views }} </p>
+                        <p class="card-text"><small class="text-body-secondary"> {{ item.date }}</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- <Card v-for="result in results" :key="result" :result="result" /> -->
+            </div>
+
+            <div class="col-8" v-else>
+              <h3>Sorry, no results found for {{ searchQuery }} ...</h3>
+              <p v-if="error">{{ error.message }}</p>
+          </div>
+          </div>
+
+          <div class="col-8" v-else>
+            test
+          </div>
+
+          <div class="col col-lg-2">
+            Recommendations
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+
+    <!-- <div class="top-bar">
+    <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
+            <div class="search">
+                <input type="text" placeholder="Search ..." v-model.trim="searchValue" @keyup="fetchSearchResults"/>
+                <i class="fas fa-search"></i>
+            </div>
+    </div> 
+    </div> -->
+    
   </div>
-  <div>
-        <RankingResults></RankingResults>
-  </div>
+    
+    
 </template>
 
-<script lang="ts">
+<script>
 // Imports
 import { defineComponent } from "vue";
+import { ref } from 'vue';
+import Card from '@/components/resultCard.vue';
+import axios from "axios";
 //import Navigation from "@/components/NavigationBar.vue";
-import RankingResults from '@/components/showResults.vue';
 //import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 
 export default defineComponent({
   name: "HomeView",
-  components: {
-    //Navigation,
-    RankingResults,
-  },
-  data: () => {
-    return {
-      mobileView: true,
-      showNav: false
-    };
-  },
+    components: {
+    },
+    data: () => {
+      return {
+        results: [],
+        searchQuery: null,
+        exampleThumbnail: "https://englishlive.ef.com/blog/wp-content/uploads/sites/2/2015/05/how-to-give-advice-in-english.jpg",
+        noResult: null,
+
+        mobileView: false,
+      };
+    },
+  
   methods: {
     handleView() {
       this.mobileView = window.innerWidth <= 990;
+    },
+
+    async handleSearch() {
+      console.log("search results: ")
+      await axios.get(`https://api.adviceslip.com/advice/search/${this.searchQuery}`)
+      .then((response)=>{
+        this.results = response.data.slips
+        console.log(this.results)
+
+        this.noResult = false
+      })
+      .catch((error)=>{
+        console.log(error)
+      })
+
+      
+      //this.results.value = fetch(`https://api/?q=${this.searchQuery.value}`)
+      //  .then(res => res.json())
+      //  .then(data => data.results);
+      //this.searchQuery = "";
     }
   },
 
-  created() {
+  async created() {
     this.handleView();
     window.addEventListener('resize', this.handleView);
+
+    const searchQuery = ref("");
+    const results = ref([]);
+    //await this.handleView();
+
+    return {
+      Card,
+      searchQuery,
+      results,
+    }
   },
 });
 </script>
@@ -75,5 +207,74 @@ body {
 }
 .open {
   transform: translateX(300px);
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h1 {font-size:1.5rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h1 {font-size:2rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h1 {font-size:2.5rem;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h1 {font-size:3rem;} /*1rem = 16px*/    
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h1 {
+    color: #888;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    strong {
+      color: #313131;
+    }
+    &:hover {
+      color: #313131;
+    }
+  }
+  .search-box {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    .search-field {
+      appearance: none;
+      background: none;
+      border: none;
+      outline: none;
+      background-color: #F3F3F3;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+      display: block;
+      width: 100%;
+      max-width: 600px;
+      padding: 15px;
+      border-radius: 8px;
+      color: #313131;
+      font-size: 20px;
+      transition: 0.4s;
+      &::placeholder {
+        color: #AAA;
+      }
+      &:focus, &:valid {
+        color: #FFF;
+        background-color: #313131;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
 }
 </style>
