@@ -44,6 +44,7 @@ def embed_text(text):
 
 def getTopResult(embedd1, embedd2, topk, df) -> pd.DataFrame:
     cos_scores = util.pytorch_cos_sim(embedd1, embedd2)[0]
+    print(f"cos: {cos_scores}")
 
     top_results = torch.topk(cos_scores, k=topk)
 
@@ -108,4 +109,4 @@ if __name__ == "__main__":
     user_history = read_history()
     user_keyword_embeddings = embed_text(user_history.clean_sentence.values)
 
-    top3 = getTopResult(user_keyword_embeddings, query_corpus_result_embedding, 3, query_corpus_result)
+    top3 = getTopResult(user_keyword_embeddings, query_corpus_result_embedding, 10, query_corpus_result)
