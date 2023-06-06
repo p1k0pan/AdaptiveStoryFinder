@@ -6,6 +6,7 @@ import json
 import time
 import datetime
 import argparse
+from gradio_client import Client
 
 # Create the argument parser
 parser = argparse.ArgumentParser()
@@ -88,21 +89,43 @@ def load_corpus_tensor(df:pd.DataFrame):
     else:
         print("load corpus embedding")
         corpus_embeddings = torch.load('corpus_embeddings.pt').to(device)
+
     return corpus_embeddings
 
-if __name__ == "__main__":
-    # user_history: pd.DataFrame = read_history()
-    # load corpus df and embeddings
-    df = load_corpus()
-    # print(df[df['title'] == 'Hooked —']['url'])
+def model_from_HF(df:pd.DataFrame, query)->pd.DataFrame:
+    """
+        use uploaded api to get model
+    """
+
+    print(query)
+    client = Client("https://adaptivestoryfinder-medium-query-topk.hf.space/")
+    result = client.predict(
+                    "10",	# str  in 'topk' Textbox component
+                    query,
+                    api_name="/predict"
+    )
+    result = list(map(int, result))
+    top10_df = df.iloc[result].copy()
+    return top10_df
+
+def model_from_local(df:pd.DataFrame, query)->pd.DataFrame:
     corpus_embeddings = load_corpus_tensor(df)
 
-    test_sentence = "start my own restaurant"
-    print(test_sentence)
-    query_embedding = embed_text(test_sentence)
+    print(query)
+    query_embedding = embed_text(query)
 
-    # get result from corpus and query, then embedd the result 
     query_corpus_result:pd.DataFrame = getTopResult(query_embedding, corpus_embeddings, 10, df)
+    return query_corpus_result
+
+
+if __name__ == "__main__":
+
+    query:str = "start my own restaurant",	# str  in 'query' Textbox component
+    df = load_corpus()
+
+    # query_corpus_result = model_from_HF(df, query)
+    query_corpus_result = model_from_local(df, query)
+
     query_corpus_result_embedding = embed_text(query_corpus_result.clean_sentence.values)
 
     # # user history embedding
