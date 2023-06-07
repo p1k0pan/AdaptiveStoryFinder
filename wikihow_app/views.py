@@ -3,12 +3,13 @@ import json
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.views.generic import ListView
+from django.views.generic import TemplateView
+from django import forms
 
-from wikihow_app.models import Person
 import wikihowapi_pk as wha
 
 from django.contrib.auth.decorators import login_required
-
+from .forms import HistoryForm
 #from rest_framework import viewsets
 #from rest_framework.authentication import BasicAuthentication
 #from rest_framework.permissions import IsAuthenticated
@@ -43,7 +44,7 @@ def firstTest(request):
     return HttpResponse("docker is now working")
     
 class PersonList(ListView):
-    model = Person
+    #model = Person
     template_name = 'test.html'
 
     def get_context_data(self, **kwargs):
@@ -96,4 +97,28 @@ def searchWikihow(request):
 
 # use wha to search with different questions and return json response
 
+class HomeView(TemplateView):
+    template_name = 'home/'
     
+    def get(self, request):
+        form = "test"
+        return render(request, self.template_name, {'form': form})
+    
+    def post(self, request):
+        history = ""
+        # if this is a POST request we need to process the form data
+        if request.method == "POST":
+            # create a form instance and populate it with data from the request:
+            form = HistoryForm(request.POST)
+            # check whether it's valid:
+            if form.is_valid():
+                # process the data in form.cleaned_data as required
+                history = form.cleaned_data['post']
+                # redirect to a new URL:
+                #return HttpResponseRedirect("/thanks/")
+            # if a GET (or any other method) we'll create a blank form
+        else:
+            form = HistoryForm()
+
+        args = {'form': form, 'text': history}
+        return render(request, self.template_name, {"form": args})

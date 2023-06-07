@@ -1,35 +1,8 @@
 from django.db import models
-
+from django.contrib.auth.models import AbstractUser
 # Create your models here.
 
-class Person(models.Model):
-    GENDER_CHOICES = (
-        (1, 'male'),
-        (0, 'female'),
-    )
-    name = models.CharField(max_length=32)
-    age = models.IntegerField()
-    gender = models.BooleanField()
-    id_card = models.CharField(max_length=32)
-    address = models.CharField(max_length=255)
-    temperature = models.FloatField()
 
-    class Meta:
-        permissions = ()
-
-
-
-class Article(models.Model):
-    titel = models.CharField(max_length=255)
-    thumbnail = models.CharField(max_length=255)
-    views = models.CharField(max_length=255)
-    release_date = models.CharField(max_length=32)
-    author = models.CharField(max_length=32)
-    description = models.CharField(max_length=255)
-    text = models.CharField(max_length=255)
-
-    num_sections = models.IntegerField()
-    num_images = models.IntegerField()
 
 
 

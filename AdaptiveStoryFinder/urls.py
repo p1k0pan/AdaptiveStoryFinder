@@ -16,13 +16,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+#from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+#from rest_framework import routers
 
 #from django.views.generic import TemplateView
 
 from django.contrib.auth import views as auth_views
 from wikihow_app import views
 
+app_name = "adaptive_storyfinder"
 urlpatterns = [
+    #url(r'^$', TemplateView.as_view(template_name='index.html'), name='uHome'),
+    #url(r'^api/',include(router.urls)),
+
     path('api-auth/', include('rest_framework.urls')),
     path('admin/', admin.site.urls),
     path("test/", include("wikihow_app.urls")),
