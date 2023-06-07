@@ -8,19 +8,41 @@
 //import 'vuesax/dist/vuesax.css' //Vuesax styles
 
 //Import Bootstrap an BootstrapVue CSS files (order is important)
-import 'bootstrap/dist/css/bootstrap.css'
+//import 'jquery/src/jquery.js'
+//import 'bootstrap/dist/css/bootstrap.min.css'
+//import 'bootstrap/dist/css/bootstrap.css'
+//import 'bootstrap-vue/dist/bootstrap-vue.css'
 //import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.js'
-import "bootstrap";
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'jquery/src/jquery.js'
-import 'bootstrap/dist/js/bootstrap.min.js'
+//import 'bootstrap/dist/js/bootstrap.min.js'
+
+//import { BootstrapVue } from 'bootstrap-vue' // , IconsPlugin 
+//import BootstrapVue3 from 'bootstrap-vue-3'
+// Import Bootstrap and BootstrapVue CSS files (order is important)
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+//import 'bootstrap-vue-3/dist/bootstrap-vue-3.css'
 
 
 //import '@/assets/css/tailwind.css'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
+import PrimeVue from 'primevue/config';
+//theme
+import "primevue/resources/themes/lara-light-indigo/theme.css";     
+    
+//core
+import "primevue/resources/primevue.min.css";
+
+//import "primeicons/primeicons.css"; //icons
+
+//import Vuetify from 'vuetify'
+//import 'vuetify/dist/vuetify.min.css'
+
+//import Vuesax from 'vuesax'
+//import 'vuesax/dist/vuesax.css' //Vuesax styles
 
 // "http://localhost:8000"
 
@@ -44,12 +66,15 @@ import router from './router'
 const app = createApp(App)
 app.use(createPinia()) // Create the root store
 app.use(router)
-
-//app.use(bootstrap)
+app.use(PrimeVue)
+//app.use(Vuesax)
+//app.use(BootstrapVue)
+//app.use(IconsPlugin)
 app.use(VueAxios, axios) // 👈
+
 app.mount('#app')
 
-
+//import "bootstrap/dist/js/bootstrap.js"
 console.log(app)
 
 
