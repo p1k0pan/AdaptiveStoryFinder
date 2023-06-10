@@ -1,10 +1,9 @@
 import pandas as pd
-from sentence_transformers import SentenceTransformer, util
+from sentence_transformers import SentenceTransformer, util, CrossEncoder
 import torch
 import clean_dataset
 import json
-import time
-import datetime
+import numpy as np
 import argparse
 from gradio_client import Client
 
@@ -26,7 +25,8 @@ elif torch.backends.mps.is_available():
 else:
     device = 'cpu'
 
-model = SentenceTransformer('paraphrase-MiniLM-L6-v2', device=device)
+bi_encoder = SentenceTransformer('multi-qa-MiniLM-L6-cos-v1', device=device)
+cross_encoder = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2',device=device)
 
 def read_history() -> pd.DataFrame:
     with open('food_health_data.json') as f:
@@ -41,7 +41,12 @@ def read_history() -> pd.DataFrame:
     return user_history
 
 def embed_text(text):
-    return model.encode(text, convert_to_tensor=True,show_progress_bar=True)
+    return bi_encoder.encode(text, convert_to_tensor=True,show_progress_bar=True)
+
+def cross_embed(pairs:list):
+    # pairs: [[str1,str2],]
+    return cross_encoder.predict(pairs)
+
 
 def getTopResult(embedd1, embedd2, topk, df) -> pd.DataFrame:
     cos_scores = util.pytorch_cos_sim(embedd1, embedd2)[0]
@@ -63,6 +68,20 @@ def getTopResult(embedd1, embedd2, topk, df) -> pd.DataFrame:
         # result.append(df[['clean_sentence']].iloc[idx].item())
 
     return df.iloc[result_index].copy()
+
+def getHits(question_embedding, corpus_embeddings, top_k, df):
+    hits = util.semantic_search(question_embedding, corpus_embeddings, top_k=top_k)
+    hits = hits[0]  # Get the hits for the first query
+    print(f'hits: {hits}')
+
+    result_index = [] # get the top10 item from df
+    for item in hits:
+        idx = item["corpus_id"]
+        result_index.append(idx)
+        print(f"{idx}: {df[['title']].iloc[idx].values}")
+
+    return df.iloc[result_index].copy()
+
 
 def load_corpus():
     if args.clean_corpus:
@@ -110,11 +129,14 @@ def model_from_HF(df:pd.DataFrame, query)->pd.DataFrame:
 
 def model_from_local(df:pd.DataFrame, query)->pd.DataFrame:
     corpus_embeddings = load_corpus_tensor(df)
+    print(f'corpus model shape: {corpus_embeddings.shape}')
 
     print(query)
     query_embedding = embed_text(query)
+    print(f'query shape: {query_embedding.shape}')
 
-    query_corpus_result:pd.DataFrame = getTopResult(query_embedding, corpus_embeddings, 10, df)
+    # query_corpus_result:pd.DataFrame = getTopResult(query_embedding, corpus_embeddings, 10, df)
+    query_corpus_result = getHits(query_embedding, corpus_embeddings, 10,df)
     return query_corpus_result
 
 
@@ -126,10 +148,11 @@ if __name__ == "__main__":
     # query_corpus_result = model_from_HF(df, query)
     query_corpus_result = model_from_local(df, query)
 
-    query_corpus_result_embedding = embed_text(query_corpus_result.clean_sentence.values)
+    # query_corpus_result_embedding = embed_text(query_corpus_result.clean_sentence.values)
 
     # # user history embedding
-    user_history = read_history()
-    user_keyword_embeddings = embed_text(user_history.clean_sentence.values)
+    # user_history = read_history()
+    # user_keyword_embeddings = embed_text(user_history.clean_sentence.values)
+    # print(f'user history shape: {user_keyword_embeddings.shape}')
 
-    top3 = getTopResult(user_keyword_embeddings, query_corpus_result_embedding, 10, query_corpus_result)
+    # top3 = getTopResult(user_keyword_embeddings, query_corpus_result_embedding, 10, query_corpus_result)
