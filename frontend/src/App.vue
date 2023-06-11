@@ -1,54 +1,32 @@
-<script setup>
-import { RouterView } from 'vue-router' // RouterLink,
-</script>
-
-
 <template>
-  
-  <RouterView />
-
+  <div id="app">
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </nav>
+    <router-view/>
+  </div>
 </template>
 
-<script>
-// lang="ts"
-
-// Imports
-//import home from './views/home.vue';
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  components:{
-    //'home-page': home,
-    // home // with ts
-  },
-  name: 'App',
-  data() {
-    return {
-
-    }
-  },
-
-  //props: {},
-  //setup(props) {},
-  //computed:{}
-  //watch: {}
-  //emits: 
-
-  methods: {
-
-  },
-})
-</script>
-
-
-<style scoped lang="scss">
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>
-
