@@ -43,19 +43,16 @@ def read_history() -> pd.DataFrame:
 def embed_text(text):
     return bi_encoder.encode(text, convert_to_tensor=True,show_progress_bar=True)
 
-def cross_embed(pairs:list):
-    # pairs: [[str1,str2],]
-    return cross_encoder.predict(pairs)
 
+def rank_hits_history(history_emb, rerank_emb, topk, df) -> pd.DataFrame:
+    cos_scores = util.pytorch_cos_sim(rerank_emb, history_emb)
+    # print(f"cos: {type(cos_scores)}")
+    doc_average_score = torch.mean(cos_scores, dim=1)
+    # print(f'history_score: {doc_average_score.shape}')
 
-def getTopResult(embedd1, embedd2, topk, df) -> pd.DataFrame:
-    cos_scores = util.pytorch_cos_sim(embedd1, embedd2)[0]
-    print(f"cos: {cos_scores}")
+    top_results = torch.topk(doc_average_score, k=topk)
 
-    top_results = torch.topk(cos_scores, k=topk)
-
-    print("\n\n======================\n\n")
-    print(f"Top {topk} most similar sentences in corpus:")
+    print("\nhistory Hits:")
 
     # result = top_results.indices.tolist()
     result_index = [] # get the top10 item from df
@@ -69,19 +66,32 @@ def getTopResult(embedd1, embedd2, topk, df) -> pd.DataFrame:
 
     return df.iloc[result_index].copy()
 
-def getHits(question_embedding, corpus_embeddings, top_k, df):
+def get_hits(question_embedding, corpus_embeddings, top_k, df):
     hits = util.semantic_search(question_embedding, corpus_embeddings, top_k=top_k)
     hits = hits[0]  # Get the hits for the first query
-    print(f'hits: {hits}')
 
     result_index = [] # get the top10 item from df
+    print("\nHits by bi_encoder:")
     for item in hits:
         idx = item["corpus_id"]
         result_index.append(idx)
         print(f"{idx}: {df[['title']].iloc[idx].values}")
 
+    # df.iloc[result_index].copy().to_csv('hits.csv',',')
+    
     return df.iloc[result_index].copy()
 
+def rank_hits_cross_encoder(hits_df,query):
+    cross_inp = [[query, value] for value in hits_df.clean_sentence.values]
+
+    scores = cross_encoder.predict(cross_inp)
+    hits_df['score'] = scores
+
+    hits_df.sort_values(by=['score'], inplace=True, ascending=False)
+
+    print("\nCross Hits:")
+    print(f"{hits_df[['title']].values}")
+    return hits_df.copy()
 
 def load_corpus():
     if args.clean_corpus:
@@ -129,30 +139,32 @@ def model_from_HF(df:pd.DataFrame, query)->pd.DataFrame:
 
 def model_from_local(df:pd.DataFrame, query)->pd.DataFrame:
     corpus_embeddings = load_corpus_tensor(df)
-    print(f'corpus model shape: {corpus_embeddings.shape}')
+    # print(f'corpus model shape: {corpus_embeddings.shape}')
 
     print(query)
     query_embedding = embed_text(query)
-    print(f'query shape: {query_embedding.shape}')
+    # print(f'query shape: {query_embedding.shape}')
 
     # query_corpus_result:pd.DataFrame = getTopResult(query_embedding, corpus_embeddings, 10, df)
-    query_corpus_result = getHits(query_embedding, corpus_embeddings, 10,df)
-    return query_corpus_result
+    query_corpus_result = get_hits(query_embedding, corpus_embeddings, 10,df)
+
+    rerank_result = rank_hits_cross_encoder(query_corpus_result,query)
+    return rerank_result
 
 
 if __name__ == "__main__":
 
-    query:str = "start my own restaurant",	# str  in 'query' Textbox component
+    query:str = "start my own restaurant"	# str  in 'query' Textbox component
     df = load_corpus()
 
     # query_corpus_result = model_from_HF(df, query)
     query_corpus_result = model_from_local(df, query)
 
-    # query_corpus_result_embedding = embed_text(query_corpus_result.clean_sentence.values)
+    query_corpus_result_embedding = embed_text(query_corpus_result.clean_sentence.values)
 
-    # # user history embedding
-    # user_history = read_history()
-    # user_keyword_embeddings = embed_text(user_history.clean_sentence.values)
+    # user history embedding
+    user_history = read_history()
+    user_keyword_embeddings = embed_text(user_history.clean_sentence.values)
     # print(f'user history shape: {user_keyword_embeddings.shape}')
 
-    # top3 = getTopResult(user_keyword_embeddings, query_corpus_result_embedding, 10, query_corpus_result)
+    history_rank = rank_hits_history(user_keyword_embeddings, query_corpus_result_embedding, 10, query_corpus_result)
