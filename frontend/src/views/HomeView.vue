@@ -1,18 +1,58 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div>
+    <hello-world />
+    
+    <h1> Test Vuetify </h1>
+    <v-file-input
+      multiple
+      label="File input"
+    ></v-file-input>
+
+    <h1> Test Bootstrap</h1>
+    <div class="mb-3">
+      <label for="formFileSm" class="form-label">Small file input example</label>
+      <input class="form-control form-control-sm" id="formFileSm" type="file">
+    </div>
+
+    <h1> Test PrimeVue</h1>
+    <div class="card flex justify-content-center">
+        <FileUpload mode="basic" name="demo[]" url="./upload.php" accept="image/*" :maxFileSize="1000000" @upload="onUpload" />
+    </div>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
-import HelloWorld from '@/components/HelloWorld.vue' // @ is an alias to /src
+  import Vue from 'vue'
+  // import { useToast } from "primevue/usetoast";
+  // const toast = useToast();
+  import HelloWorld from '../components/HelloWorld.vue'
 
-@Component({
-  components: {
-    HelloWorld
-  }
-})
-export default class HomeView extends Vue {}
+  import FileUpload from 'primevue/fileupload';
+
+
+  export default Vue.extend({
+    name: 'Home',
+
+    components: {
+      HelloWorld,
+      
+      FileUpload,
+    },
+
+    data () {
+      return {
+      }
+    },
+    beforeMount () {
+      // this.fetch()
+    },
+    methods: {
+      onUpload: () => {
+        console.log("upload file")
+      },
+      fetch () {
+        this.$store.dispatch('websocketChangeFunctionality', 'all vaccinations')
+      }
+    }
+  })
 </script>
