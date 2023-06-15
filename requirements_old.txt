@@ -1,0 +1,12 @@
+django==4.2
+social-auth-app-django
+wikihowAPI-pk
+django-webpack-loader
+axios
+djangorestframework
+markdown
+django-filter
+numpy
+pandas
+transformers
+sentence-transformers
